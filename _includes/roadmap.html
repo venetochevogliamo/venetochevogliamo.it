@@ -1,0 +1,21 @@
+<!-- roadmap -->
+<div class="roadmap">
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1>Prossimi incontri</h1>
+        <ul class="timeline">
+          {% for e in site.data.events %}
+          <li>
+            <a target="_blank" href="#">{{ e.place }}</a>
+            <a href="#" class="float-right">{{ e.date }}</a>
+            <p>
+              {{ e.desc }}
+            </p>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
