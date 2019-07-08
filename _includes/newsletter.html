@@ -1,44 +1,174 @@
 <!-- newsletter -->
-<div class="newsletter">
+<div class="newsletter" id="newsletter">
   <div class="container">
     <div class="row justify-content-md-center py-3">
       <div class="col col-md-6">
         <h1>Newsletter</h1>
-        <form>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              class="form-control"
-              id="exampleInputEmail1"
-              aria-describedby="emailHelp"
-              placeholder="Enter email"
-            />
-            <small id="emailHelp" class="form-text text-muted"
-              >We'll never share your email with anyone else.</small
-            >
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Password</label>
-            <input
-              type="password"
-              class="form-control"
-              id="exampleInputPassword1"
-              placeholder="Password"
-            />
-          </div>
-          <div class="form-group form-check">
-            <input
-              type="checkbox"
-              class="form-check-input"
-              id="exampleCheck1"
-            />
-            <label class="form-check-label" for="exampleCheck1"
-              >Check me out</label
-            >
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+          <form
+            action="https://venetochevogliamo.us3.list-manage.com/subscribe/post?u=d417927314b17aec21f2dd841&amp;id=bba24321db"
+            method="post"
+            id="mc-embedded-subscribe-form"
+            name="mc-embedded-subscribe-form"
+            class="validate"
+            target="_blank"
+          >
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+                <label for="mce-FIRSTNAME">Nome</label>
+                <input
+                  type="text"
+                  value=""
+                  class="form-control"
+                  name="FIRSTNAME"
+                  id="mce-FIRSTNAME"
+                  placeholder="Il tuo nome"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="mce-LASTNAME">Cognome</label>
+                <input
+                  type="text"
+                  value=""
+                  name="LASTNAME"
+                  class="form-control"
+                  id="mce-LASTNAME"
+                  placeholder="Il tuo cognome"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="mce-EMAIL">E-Mail</label>
+                <input
+                  type="email"
+                  value=""
+                  name="EMAIL"
+                  class="form-control"
+                  id="mce-EMAIL"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="mce-PROVINCIA">Provincia</label>
+                <select
+                  name="PROVINCIA"
+                  class="form-control"
+                  id="mce-PROVINCIA"
+                  required
+                  onchange="test()"
+                >
+                  <option value=""></option>
+                  <option value="Belluno">Belluno</option>
+                  <option value="Padova">Padova</option>
+                  <option value="Rovigo">Rovigo</option>
+                  <option value="Treviso">Treviso</option>
+                  <option value="Venezia">Venezia</option>
+                  <option value="Verona">Verona</option>
+                  <option value="Vicenza">Vicenza</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mce-COMUNE">Comune </label>
+                <select
+                  name="COMUNE"
+                  class="form-control"
+                  id="mce-COMUNE"
+                  required
+                >
+                </select>
+              </div>
+              &nbsp;
+              <h2>Vuoi aiutarci?</h2>
+              <label for="mce-MOBILE">Cellulare</label>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">+39</span>
+                </div>
+                <input
+                  type="tel"
+                  name="MOBILE"
+                  value=""
+                  id="mce-MOBILE"
+                  class="form-control"
+                />
+              </div>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  value="1"
+                  name="group[23069][1]"
+                  class="form-check-input"
+                  id="mce-group[23069]-23069-0"
+                />
+                <label for="mce-group[23069]-23069-0"
+                  >Sì, voglio ricevere aggiornamenti per contribuire al
+                  progetto!</label
+                >
+              </div>
+
+              <i
+                >Il Veneto che Vogliamo utilizzerà i dati che hai fornito
+                esclusivamente per inviarti la newsletter e gli aggiornamenti
+                sugli eventi che organizza. Tratteremo i tuoi dati con rispetto.
+              </i>
+
+              <p></p>
+              <div class="form-group form-check">
+                <input
+                  type="checkbox"
+                  id="gdpr_14865"
+                  name="gdpr[14865]"
+                  value="Y"
+                  class="form-check-input"
+                  required
+                />
+                <label class="form-check-label"
+                  >Acconsento al trattamento dei miei dati</label
+                >
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div
+                  class="response"
+                  id="mce-error-response"
+                  style="display:none"
+                ></div>
+                <div
+                  class="response"
+                  id="mce-success-response"
+                  style="display:none"
+                ></div>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div
+                style="position: absolute; left: -5000px;"
+                aria-hidden="true"
+              >
+                <input
+                  type="text"
+                  name="b_d417927314b17aec21f2dd841_bba24321db"
+                  tabindex="-1"
+                  value=""
+                />
+              </div>
+
+              <div class="clear">
+                <input
+                  type="submit"
+                  value="Invia"
+                  name="subscribe"
+                  id="mc-embedded-subscribe"
+                  class="btn btn-primary"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <!--End mc_embed_signup-->
       </div>
     </div>
   </div>
