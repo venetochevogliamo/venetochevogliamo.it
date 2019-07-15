@@ -595,7 +595,7 @@ function createOptions(optionsArray, ddl) {
   }
 }
 
-function test() {
+function getComuni() {
   var p = document.getElementById("mce-PROVINCIA");
   var c = document.getElementById("mce-COMUNE");
 
