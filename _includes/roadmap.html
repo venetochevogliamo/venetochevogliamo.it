@@ -7,10 +7,16 @@
         <ul class="timeline">
           {% for e in site.data.events %}
           <li>
-            <a target="_blank" href="#">{{ e.place }}</a>
-            <a href="#" class="float-right">{{ e.date }}</a>
+            <a target="_blank" href="{{ e.fb }}">{{ e.place }}</a>
+            <p class="float-right">{{ e.date }}</p>
             <p>
-              {{ e.desc }}
+              <br />
+              <i class="fas fa-map-marker"></i> {{ e.location }}
+              {% if e.live %}
+              <br />
+              <i class="far fa-play-circle"></i>
+              <a target="_blank" href="{{ e.live }}">Guarda la diretta</a>
+              {% endif %}
             </p>
           </li>
           {% endfor %}
