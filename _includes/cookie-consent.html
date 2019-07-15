@@ -1,0 +1,30 @@
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+/>
+<script
+  src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"
+  data-cfasync="false"
+></script>
+<script>
+  window.addEventListener("load", function() {
+    window.cookieconsent.initialise({
+      palette: {
+        popup: {
+          background: "#252e39"
+        },
+        button: {
+          background: "#14a7d0"
+        }
+      },
+      content: {
+        message:
+          "Questo sito web utilizza cookie tecnici e cookie di terze parti per garantirvi il corretto funzionamento e per migliorare l’esperienza utente",
+        dismiss: "Ok",
+        link: "Maggiori informazioni",
+        href: "{{ site.privacy_policy_url }}"
+      }
+    });
+  });
+</script>
