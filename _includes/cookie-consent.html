@@ -18,12 +18,19 @@
           background: "#14a7d0"
         }
       },
+      onStatusChange: function(status) {
+        location.reload();
+      },
       content: {
         message:
           "Questo sito web utilizza cookie tecnici e cookie di terze parti per garantirvi il corretto funzionamento e per migliorare l’esperienza utente",
         dismiss: "Ok",
         link: "Maggiori informazioni",
         href: "{{ site.privacy_policy_url }}"
+      },
+      cookie: {
+        expiryDays: 30,
+        name: "cookies_consent"
       }
     });
   });

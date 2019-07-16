@@ -1,137 +1,149 @@
 ---
 ---
 
-@import "../_sass/bootstrap.scss";
-
 //
 // Color system
 //
+$font-weight-normal: 400;
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #f7f7f9;
+$gray-300: #eceeef;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #919aa1;
+$gray-700: #55595c;
+$gray-800: #343a40;
+$gray-900: #1a1a1a;
+$black: #000;
 
-$white: #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #f7f7f9 !default;
-$gray-300: #eceeef !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #919aa1 !default;
-$gray-700: #55595c !default;
-$gray-800: #343a40 !default;
-$gray-900: #1a1a1a !default;
-$black: #000 !default;
+$blue: #007bff;
+$indigo: #6610f2;
+$purple: #6f42c1;
+$pink: #e83e8c;
+$red: #d9534f;
+$orange: #fd7e14;
+$yellow: #f0ad4e;
+$green: #4bbf73;
+$teal: #20c997;
+$cyan: #1f9bcf;
 
-$blue: #007bff !default;
-$indigo: #6610f2 !default;
-$purple: #6f42c1 !default;
-$pink: #e83e8c !default;
-$red: #d9534f !default;
-$orange: #fd7e14 !default;
-$yellow: #f0ad4e !default;
-$green: #4bbf73 !default;
-$teal: #20c997 !default;
-$cyan: #1f9bcf !default;
+$primary: $blue;
+$secondary: $white;
+$success: $green;
+$info: $cyan;
+$warning: $yellow;
+$danger: $red;
+$light: $white;
+$dark: $gray-800;
 
-$primary: $gray-900 !default;
-$secondary: $white !default;
-$success: $green !default;
-$info: $cyan !default;
-$warning: $yellow !default;
-$danger: $red !default;
-$light: $white !default;
-$dark: $gray-800 !default;
-
-$yiq-contrasted-threshold: 185 !default;
+$yiq-contrasted-threshold: 185;
 
 // Body
 
-$body-color: $gray-600 !default;
+$body-color: $gray-600;
 
 // Components
 
-$border-radius: 0 !default;
-$border-radius-lg: 0 !default;
-$border-radius-sm: 0 !default;
+$border-radius: 0;
+$border-radius-lg: 0;
+$border-radius-sm: 0;
 
 // Fonts
 
 $font-family-sans-serif: "Nunito Sans", -apple-system, BlinkMacSystemFont,
   "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-  "Segoe UI Emoji", "Segoe UI Symbol" !default;
+  "Segoe UI Emoji", "Segoe UI Symbol";
 
-$font-size-base: 0.875rem !default;
+$font-size-base: 1.05rem;
+$font-size-lg: $font-size-base * 1.25;
+$font-size-sm: $font-size-base * 0.875;
 
-$h1-font-size: 2rem !default;
-$h2-font-size: 1.75rem !default;
-$h3-font-size: 1.5rem !default;
-$h4-font-size: 1.25rem !default;
-$h5-font-size: 1rem !default;
-$h6-font-size: 0.75rem !default;
+$h1-font-size: 2rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.75rem;
 
-$headings-font-weight: 600 !default;
-$headings-color: $gray-900 !default;
+$headings-font-weight: 600;
+$headings-color: $gray-900;
 
-// Tables
+// // Tables
 
-$table-border-color: rgba(0, 0, 0, 0.05) !default;
+// $table-border-color: rgba(0, 0, 0, 0.05);
 
-// Buttons + Forms
+// // Buttons + Forms
 
-$input-btn-border-width: 0 !default;
+// $input-btn-border-width: 0;
 
-// Buttons
+// // Buttons
 
-$btn-line-height: 1.5rem !default;
+// $btn-line-height: 1.5rem;
 
-$input-btn-padding-y: 0.75rem !default;
-$input-btn-padding-x: 2rem !default;
+// $input-btn-padding-y: 0.75rem;
+// $input-btn-padding-x: 2rem;
 
-$input-btn-padding-y-sm: 0.5rem !default;
-$input-btn-padding-x-sm: 1rem !default;
+// $input-btn-padding-y-sm: 0.5rem;
+// $input-btn-padding-x-sm: 1rem;
 
-$input-btn-padding-y-lg: 2rem !default;
-$input-btn-padding-x-lg: 3rem !default;
+// $input-btn-padding-y-lg: 2rem;
+// $input-btn-padding-x-lg: 3rem;
 
-$btn-font-weight: 600 !default;
+// $btn-font-weight: 600;
 
-// Forms
+// // Forms
 
-$input-line-height: 1.5 !default;
+// $input-line-height: 1.5;
 
-$input-bg: $gray-200 !default;
-$input-disabled-bg: $gray-300 !default;
+// $input-bg: $gray-200;
+// $input-disabled-bg: $gray-300;
 
-$input-group-addon-bg: $gray-300 !default;
+// $input-group-addon-bg: $gray-300;
 
 // Navbar
 
-$navbar-padding-y: 1.5rem !default;
+$navbar-padding-y: 1.5rem;
 
-$navbar-dark-hover-color: $white !default;
+$navbar-dark-hover-color: $white;
 
-$navbar-light-color: rgba($black, 0.3) !default;
-$navbar-light-hover-color: $gray-900 !default;
-$navbar-light-active-color: $gray-900 !default;
+$navbar-light-color: rgba($black, 0.3);
+$navbar-light-hover-color: $gray-900;
+$navbar-light-active-color: $gray-900;
 
 // Pagination
 
-$pagination-border-color: transparent !default;
+$pagination-border-color: transparent;
 
-$pagination-hover-border-color: $pagination-border-color !default;
+$pagination-hover-border-color: $pagination-border-color;
 
-$pagination-disabled-border-color: $pagination-border-color !default;
+$pagination-disabled-border-color: $pagination-border-color;
 
 // Breadcrumbs
 
-$breadcrumb-bg: transparent !default;
+$breadcrumb-bg: transparent;
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !default;
+$web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600";
 @import url($web-font-path);
 
-// Navbar ======================================================================
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
 
+@import "../_sass/bootstrap";
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+//custom
 .navbar {
-  font-size: $font-size-sm;
+  font-size: $font-size-base;
   text-transform: uppercase;
   padding: 15px;
   font-weight: 300;
@@ -147,6 +159,102 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !d
     margin-right: 2rem;
   }
 }
+
+.header-logo {
+  //height: 400px;
+  //margin-bottom: 20px;
+  background: url(./head.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  @include media-breakpoint-down(sm) {
+    height: 200px;
+  }
+  @include media-breakpoint-down(lg) {
+    height: 400px;
+  }
+}
+
+.newsletter {
+  background: $warning;
+  //padding: 30px;
+  h1,
+  p {
+    color: $white;
+  }
+  label,
+  i,
+  .form-check-label {
+    color: $black;
+  }
+
+  .form-group {
+    label {
+      color: $gray-800;
+    }
+  }
+}
+
+.roadmap {
+  //background: $gray-100;
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+  }
+  ul.timeline:before {
+    content: " ";
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+  }
+  ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+  }
+  ul.timeline > li:before {
+    content: " ";
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+  }
+}
+
+.footer {
+  background: $gray-100;
+  //padding: 30px;
+  h1 {
+    color: $black;
+  }
+  p {
+    color: $black;
+  }
+  #social {
+    text-align: right;
+    font-size: 2em;
+    // .fa-facebook:link,
+    // .fa-facebook:active,
+    // .fa-facebook:visited,
+    .fa-facebook-f:before {
+      color: rgb(60, 90, 153);
+    }
+    .fa-facebook-f:hover:before {
+      color: red;
+    }
+    color: $white;
+  }
+}
+
+// Navbar ======================================================================
 
 .bg-primary {
   background-color: $gray-900 !important;
@@ -216,7 +324,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600" !d
 // Typography ==================================================================
 
 body {
-  font-weight: 400;
+  //font-weight: 600;
   letter-spacing: 1px;
 }
 
@@ -384,11 +492,11 @@ h6 {
     // .fa-facebook:active,
     // .fa-facebook:visited,
     .fa-facebook-f:before {
-      color: rgb(60, 90, 153);
+      color: rgb(60, 90, 153) !important;
     }
     .fa-facebook-f:hover:before {
-      color: red;
+      color: red !important;
     }
-    color: $white;
+    color: $white !important;
   }
 }
