@@ -157,22 +157,21 @@ $grid-breakpoints: (
 
   &-brand {
     margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 600;
   }
 }
 
 .header-logo {
-  //height: 400px;
+  height: 500px;
   //margin-bottom: 20px;
-  background: url(./head.png);
+  background: url(./img/il-veneto-che-vogliamo.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  @include media-breakpoint-down(sm) {
-    height: 200px;
-  }
-  @include media-breakpoint-down(lg) {
-    height: 400px;
-  }
+  background-size: contain;
+  background-position: center center;
+  // @include media-breakpoint-down(sm) {
+  //   height: 150px;
+  // }
 }
 
 .newsletter {
@@ -413,19 +412,6 @@ h6 {
   }
 }
 
-//custom
-.header-logo {
-  height: 400px;
-  //margin-bottom: 20px;
-  background: url(./head.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  @include media-breakpoint-down(sm) {
-    height: 200px;
-  }
-}
-
 .newsletter {
   background: $warning;
   //padding: 30px;
@@ -439,64 +425,5 @@ h6 {
     label {
       color: $gray-800;
     }
-  }
-}
-
-.roadmap {
-  //background: $gray-100;
-  ul.timeline {
-    list-style-type: none;
-    position: relative;
-  }
-  ul.timeline:before {
-    content: " ";
-    background: #d4d9df;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
-  }
-  ul.timeline > li {
-    margin: 20px 0;
-    padding-left: 20px;
-  }
-  ul.timeline > li:before {
-    content: " ";
-    background: white;
-    display: inline-block;
-    position: absolute;
-    border-radius: 50%;
-    border: 3px solid #22c0e8;
-    left: 20px;
-    width: 20px;
-    height: 20px;
-    z-index: 400;
-  }
-}
-
-.footer {
-  background: $gray-100;
-  //padding: 30px;
-  h1 {
-    color: $black;
-  }
-  p {
-    color: $black;
-  }
-  #social {
-    text-align: right;
-    font-size: 2em;
-    // .fa-facebook:link,
-    // .fa-facebook:active,
-    // .fa-facebook:visited,
-    .fa-facebook-f:before {
-      color: rgb(60, 90, 153) !important;
-    }
-    .fa-facebook-f:hover:before {
-      color: red !important;
-    }
-    color: $white !important;
   }
 }
