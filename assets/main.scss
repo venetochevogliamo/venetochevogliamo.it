@@ -169,9 +169,6 @@ $grid-breakpoints: (
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  // @include media-breakpoint-down(sm) {
-  //   height: 150px;
-  // }
 }
 
 .newsletter {
