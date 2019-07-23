@@ -424,3 +424,54 @@ h6 {
     }
   }
 }
+
+/* Switch */
+
+input[type="checkbox"].switch {
+  font-size: $font-size-base;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 3.5em;
+  height: 1.5em;
+  background: rgb(255, 59, 48);
+  border-radius: 3em;
+  position: relative;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked {
+  background: rgb(52, 199, 89);
+}
+
+input[type="checkbox"].switch:after {
+  position: absolute;
+  content: "";
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  background: #fff;
+  -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  left: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked:after {
+  left: calc(100% - 1.5em);
+}
+label.switch {
+  vertical-align: middle;
+}
+
+/* Switch (end) */
+
+#contribute {
+  display: none;
+}

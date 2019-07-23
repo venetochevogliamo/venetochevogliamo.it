@@ -81,32 +81,35 @@
                 >
                 </select>
               </div>
-              <h2>Vuoi aiutarci?</h2>
-              <label for="mce-MOBILE">Cellulare</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">+39</span>
-                </div>
-                <input
-                  type="tel"
-                  name="MOBILE"
-                  value=""
-                  id="mce-MOBILE"
-                  class="form-control"
-                />
-              </div>
-              <div class="form-group form-check">
+              <!-- <h2>Vuoi aiutarci?</h2> -->
+              <div id="contribute-toggle">
                 <input
                   type="checkbox"
                   value="1"
                   name="group[23069][1]"
-                  class="form-check-input"
+                  class="switch"
                   id="mce-group[23069]-23069-0"
+                  onclick="changeContribute()"
                 />
-                <label class="form-check-label" for="mce-group[23069]-23069-0"
-                  >Sì, voglio ricevere aggiornamenti per contribuire al
-                  progetto!</label
+                &nbsp;
+                <label for="mce-group[23069]-23069-0" class="switch"
+                  ><h5>Vuoi contribuire?</h5></label
                 >
+              </div>
+              <div id="contribute">
+                <label for="mce-MOBILE">Cellulare</label>
+                <div class="input-group mb-3">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">+39</span>
+                  </div>
+                  <input
+                    type="tel"
+                    name="MOBILE"
+                    value=""
+                    id="mce-MOBILE"
+                    class="form-control"
+                  />
+                </div>
               </div>
 
               <i
