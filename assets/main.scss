@@ -69,15 +69,11 @@ $h6-font-size: 0.75rem;
 $headings-font-weight: 600;
 $headings-color: $gray-900;
 
-// // Tables
+// Tables
 
 // $table-border-color: rgba(0, 0, 0, 0.05);
 
-// // Buttons + Forms
-
-// $input-btn-border-width: 0;
-
-// // Buttons
+// Buttons
 
 // $btn-line-height: 1.5rem;
 
@@ -92,14 +88,20 @@ $headings-color: $gray-900;
 
 // $btn-font-weight: 600;
 
-// // Forms
+// Forms
 
-// $input-line-height: 1.5;
+$input-line-height: 1.5 !default;
+$input-font-size: $h5-font-size;
+$input-bg: $gray-200 !default;
+$input-disabled-bg: $gray-300 !default;
 
-// $input-bg: $gray-200;
-// $input-disabled-bg: $gray-300;
+$input-group-addon-bg: $gray-300 !default;
 
-// $input-group-addon-bg: $gray-300;
+$input-padding-y: 15px;
+$input-padding-x: 2rem;
+
+$input-btn-border-width: 0px !default;
+$input-border-radius: 0px;
 
 // Navbar
 
@@ -126,6 +128,7 @@ $breadcrumb-bg: transparent;
 // Variables ===================================================================
 
 $web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600";
+//$web-font-path: "./font/Nunito_Sans/NunitoSans-Regular.ttf";
 @import url($web-font-path);
 
 $grid-breakpoints: (
@@ -187,8 +190,120 @@ $grid-breakpoints: (
   .form-group {
     label {
       color: $gray-800;
+      font-size: $h5-font-size;
     }
   }
+  #privacy {
+    .styled-checkbox {
+      position: absolute; // take it out of document flow
+      opacity: 0; // hide it
+
+      & + label {
+        position: relative;
+        cursor: pointer;
+        padding: 0;
+      }
+
+      // Box.
+      & + label:before {
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: white;
+      }
+
+      // Box hover
+      &:hover + label:before {
+        background: #ffffff;
+      }
+
+      // Box focus
+      &:focus + label:before {
+        box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+      }
+
+      // Box checked
+      &:checked + label:before {
+        background: $green;
+      }
+
+      // Disabled state label.
+      &:disabled + label {
+        color: #b8b8b8;
+        cursor: auto;
+      }
+
+      // Disabled box.
+      &:disabled + label:before {
+        box-shadow: none;
+        background: #ddd;
+      }
+
+      // Checkmark. Could be replaced with an image
+      &:checked + label:after {
+        content: "";
+        position: absolute;
+        left: 5px;
+        top: 10px;
+        background: white;
+        width: 2px;
+        height: 2px;
+        box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white,
+          4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white;
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  /* Switch */
+
+  input[type="checkbox"].switch {
+    font-size: $font-size-base;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 3.5em;
+    height: 1.5em;
+    background: rgb(255, 59, 48);
+    border-radius: 3em;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  input[type="checkbox"].switch:checked {
+    background: rgb(52, 199, 89);
+  }
+
+  input[type="checkbox"].switch:after {
+    position: absolute;
+    content: "";
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    background: #fff;
+    -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
+    -webkit-transform: scale(0.7);
+    transform: scale(0.7);
+    left: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  input[type="checkbox"].switch:checked:after {
+    left: calc(100% - 1.5em);
+  }
+  label.switch {
+    vertical-align: middle;
+  }
+
+  /* Switch (end) */
 }
 
 .roadmap {
@@ -424,53 +539,6 @@ h6 {
     }
   }
 }
-
-/* Switch */
-
-input[type="checkbox"].switch {
-  font-size: $font-size-base;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  width: 3.5em;
-  height: 1.5em;
-  background: rgb(255, 59, 48);
-  border-radius: 3em;
-  position: relative;
-  cursor: pointer;
-  outline: none;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-input[type="checkbox"].switch:checked {
-  background: rgb(52, 199, 89);
-}
-
-input[type="checkbox"].switch:after {
-  position: absolute;
-  content: "";
-  width: 1.5em;
-  height: 1.5em;
-  border-radius: 50%;
-  background: #fff;
-  -webkit-box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.3);
-  -webkit-transform: scale(0.7);
-  transform: scale(0.7);
-  left: 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-
-input[type="checkbox"].switch:checked:after {
-  left: calc(100% - 1.5em);
-}
-label.switch {
-  vertical-align: middle;
-}
-
-/* Switch (end) */
 
 #contribute {
   display: none;
