@@ -1,5 +1,7 @@
 # venetochevogliamo.it
 
+[![Known Vulnerabilities](https://snyk.io//test/github/venetochevogliamo/venetochevogliamo.it/badge.svg?targetFile=Gemfile.lock)](https://snyk.io//test/github/venetochevogliamo/venetochevogliamo.it?targetFile=Gemfile.lock)
+
 Questo repository contiene i sorgenti del sito [www.venetochevogliamo.it](https://www.venetochevogliamo.it).
 
 ### Developers
