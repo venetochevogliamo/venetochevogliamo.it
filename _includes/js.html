@@ -4,13 +4,3 @@
 <script src="{{ site.baseurl }}/assets/js/popper.min.js"></script>
 <script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/newsletter-form.js"></script>
-
-<script>
-  // Disabilita addthis.com se il cookie cookies_consent non esiste
-  if (document.cookie.indexOf("cookies_consent=dismiss") !== -1) {
-    var addthis = document.createElement("script");
-    addthis.src =
-      "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d238aa413f2bfb2";
-    document.getElementsByTagName("body")[0].appendChild(addthis);
-  }
-</script>
