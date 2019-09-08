@@ -1,7 +1,7 @@
 ---
 layout: newsletter
 permalink: /newsletter/richiesta-iscrizione-effettuata/
-sitemap: true
+sitemap: false
 ---
 
 # Richiesta iscrizione effettuata
