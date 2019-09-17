@@ -8,6 +8,9 @@
           {% for e in site.data.events %}
           <li>
             <a target="_blank" href="{{ e.fb }}">{{ e.place }}</a>
+            {% if e.new %}
+            <span class="badge badge-warning">Prossimamente</span>
+            {% endif %}
             <p class="float-right">{{ e.date }}</p>
             <p>
               <br />
