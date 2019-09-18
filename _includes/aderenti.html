@@ -1,0 +1,49 @@
+<!-- aderenti 
+https://stackoverflow.com/questions/20979305/multi-row-blog-list-in-jekyll
+
+-->
+<div class="container" id="aderenti">
+  <div class="row justify-content-md-center py-3">
+    <h1>Aderenti</h1>
+    <div class="container">
+      {% assign loopindex = 0 %}
+      {% for page in site.data.aderenti %}
+      {% assign loopindex = loopindex | plus: 1 %}
+      {% assign rowfinder = loopindex | modulo: 4 %}
+      {% if rowfinder == 1 %}
+      <div class="row">
+        <div class="col-sm text-center">
+          <figure class="figure">
+            <img src="{{ page.logo }}" class="figure-img img-fluid" />
+            <figcaption class="figure-caption">
+              {{ page.name }}
+            </figcaption>
+          </figure>
+        </div>
+        {% elsif rowfinder == 0 %}
+        <div class="col-sm text-center">
+          <figure class="figure">
+            <img src="{{ page.logo }}" class="figure-img img-fluid" />
+            <figcaption class="figure-caption">
+              {{ page.name }}
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+      {% else %}
+      <div class="col-sm text-center">
+        <figure class="figure">
+          <img src="{{ page.logo }}" class="figure-img img-fluid" />
+          <figcaption class="figure-caption">
+            {{ page.name }}
+          </figcaption>
+        </figure>
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% if rowfinder != 0 %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+</div>
