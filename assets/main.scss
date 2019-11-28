@@ -397,6 +397,10 @@ $grid-breakpoints: (
     font-size: 10px;
   }
 
+  &-lg {
+    font-size: 15px;
+  }
+
   &-warning {
     &,
     &:hover,
