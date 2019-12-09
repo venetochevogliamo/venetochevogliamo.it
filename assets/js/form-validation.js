@@ -1,3 +1,4 @@
+// List municipalities per areas
 var provBelluno = [
   "Agordo",
   "Alano di Piave",
@@ -582,6 +583,8 @@ var provVicenza = [
   "Zugliano"
 ];
 
+// Toggle contribution adds mobile field
+
 var contribute = document.getElementById("contribute");
 var toggle = document.getElementById("mce-group[23069]-23069-0");
 var mobile = document.getElementById("mce-MOBILE");
@@ -590,6 +593,8 @@ function changeContribute() {
   contribute.style.display = toggle.checked ? "block" : "none";
   mobile.required = toggle.checked ? true : false;
 }
+
+// Dinamic dropdown based by chosen area
 
 function createOption(ddl, text, value) {
   var opt = document.createElement("option");
@@ -635,3 +640,24 @@ function getComuni() {
       break;
   }
 }
+
+// Appello
+const max = 2; // max number of possible choices
+
+document.addEventListener("change", function(e) {
+  if (e.target.tagName == "INPUT") {
+    if (
+      document.querySelectorAll("#themes input[type='checkbox']:checked")
+        .length > max
+    ) {
+      e.target.checked = false;
+      console.log(`${max} buttons are alraedy checked!`);
+    }
+  }
+  // Check at least 2 checkbox are checked and gdpr
+  if (document.getElementById("gdpr").checked == true) {
+    document.getElementById("submit").disabled = false;
+  } else {
+    document.getElementById("submit").disabled = true;
+  }
+});

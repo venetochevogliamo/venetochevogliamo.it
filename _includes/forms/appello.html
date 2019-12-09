@@ -1,0 +1,213 @@
+<!-- newsletter -->
+<div class="newsletter">
+  <div class="container">
+    <div class="row justify-content-md-center py-3">
+      <div class="col col-md-6">
+        <h1>Firma l'appello</h1>
+        <form
+          method="post"
+          action="http://localhost:9000/airtable"
+          id="appelloform"
+        >
+          <div id="fields">
+            <div class="form-group">
+              <label for="FIRSTNAME">Nome</label>
+              <input
+                type="text"
+                value=""
+                class="form-control"
+                name="FIRSTNAME"
+                id="FIRSTNAME"
+                placeholder="Il tuo nome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="LASTNAME">Cognome</label>
+              <input
+                type="text"
+                value=""
+                name="LASTNAME"
+                class="form-control"
+                id="LASTNAME"
+                placeholder="Il tuo cognome"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="EMAIL">E-Mail</label>
+              <input
+                type="email"
+                value=""
+                name="EMAIL"
+                class="form-control"
+                id="EMAIL"
+                placeholder="La tua email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="mce-PROVINCIA">Provincia</label>
+              <select
+                name="PROVINCIA"
+                class="form-control"
+                id="mce-PROVINCIA"
+                required
+                onchange="getComuni()"
+              >
+                <option value=""></option>
+                <option value="Belluno">Belluno</option>
+                <option value="Padova">Padova</option>
+                <option value="Rovigo">Rovigo</option>
+                <option value="Treviso">Treviso</option>
+                <option value="Venezia">Venezia</option>
+                <option value="Verona">Verona</option>
+                <option value="Vicenza">Vicenza</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mce-COMUNE">Comune </label>
+              <select
+                name="COMUNE"
+                class="form-control"
+                id="mce-COMUNE"
+                required
+              >
+              </select>
+            </div>
+            <hr />
+            <i
+              >A quale tema sei interessato o vorresti approfondire nel nostro
+              percorso? Massimo due risposte.</i
+            >
+            <hr />
+
+            <div id="themes">
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option1"
+                name="option1"
+                value="Y"
+              />
+              <label for="option1">Ambiente e tutela del territorio</label>
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option2"
+                name="option2"
+                value="Y"
+              />
+              <label for="option2">Trasporto Pubblico</label>
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option3"
+                name="option3"
+                value="Y"
+              />
+              <label for="option3">Sanità</label>
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option4"
+                name="option4"
+                value="Y"
+              />
+              <label for="option4">Patrimonio culturale</label>
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option5"
+                name="option5"
+                value="Y"
+              />
+              <label for="option5">Lavoro ed economia sostenibile</label>
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option6"
+                name="option6"
+                value="Y"
+              />
+              <label for="option6"
+                >Sociale - riduzione delle disuguaglianze</label
+              >
+
+              <input
+                type="checkbox"
+                class="styled-checkbox"
+                id="option7"
+                name="option7"
+                value="Y"
+              />
+              <label for="option7">Lotta alla criminalità organizzata</label>
+            </div>
+            <hr />
+            <i>Privacy</i>
+            <hr />
+            <div class="privacy">
+              <!-- gdpr -->
+              <input
+                type="checkbox"
+                id="gdpr"
+                name="gdpr"
+                value="Y"
+                class="styled-checkbox"
+                required
+              />
+              <label for="gdpr"
+                >Dichiaro di aver letto la
+                <a href="{{ site.privacy_policy_url }}" target="_blank"
+                  >Privacy Policy</a
+                >
+                e accettare il trattamento dei miei dati. Autorizzo
+                <i>{{ site.title }}</i> all’invio di informazioni sullo stato
+                della presente iniziativa.</label
+              >
+              <!-- newsletter -->
+              <input
+                type="checkbox"
+                id="email-optin"
+                name="email-optin"
+                value="Y"
+                class="styled-checkbox"
+              />
+              <label for="email-optin"
+                >Voglio rimanere aggiornato con la newsletter di
+                <i>{{ site.title }}</i>.</label
+              >
+            </div>
+            <div id="mce-responses" class="clear">
+              <div
+                class="response"
+                id="mce-error-response"
+                style="display:none"
+              ></div>
+              <div
+                class="response"
+                id="mce-success-response"
+                style="display:none"
+              ></div>
+            </div>
+
+            <div class="clear">
+              <input
+                type="submit"
+                value="Invia"
+                id="submit"
+                class="btn btn-primary btn-lg"
+                disabled
+              />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

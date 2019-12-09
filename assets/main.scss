@@ -193,12 +193,15 @@ $grid-breakpoints: (
       font-size: $h5-font-size;
     }
   }
-  .privacy {
+  .privacy,
+  #themes {
     .styled-checkbox {
       position: absolute; // take it out of document flow
+      display: inline-block;
       opacity: 0; // hide it
 
       & + label {
+        display: block;
         position: relative;
         cursor: pointer;
         padding: 0;
@@ -541,6 +544,14 @@ h6 {
     label {
       color: $gray-800;
     }
+  }
+}
+
+#text-appello {
+  text-align: justify;
+  h1,
+  h2 {
+    text-align: left;
   }
 }
 
