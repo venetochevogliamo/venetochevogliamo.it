@@ -640,24 +640,3 @@ function getComuni() {
       break;
   }
 }
-
-// Appello
-const max = 2; // max number of possible choices
-
-document.addEventListener("change", function(e) {
-  if (e.target.tagName == "INPUT") {
-    if (
-      document.querySelectorAll("#themes input[type='checkbox']:checked")
-        .length > max
-    ) {
-      e.target.checked = false;
-      console.log(`${max} buttons are alraedy checked!`);
-    }
-  }
-  // Check at least 2 checkbox are checked and gdpr
-  if (document.getElementById("gdpr").checked == true) {
-    document.getElementById("submit").disabled = false;
-  } else {
-    document.getElementById("submit").disabled = true;
-  }
-});
