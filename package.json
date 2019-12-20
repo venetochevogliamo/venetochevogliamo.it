@@ -1,0 +1,17 @@
+{
+  "name": "venetochevogliamo.it",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Il Veneto che vogliamo",
+  "scripts": {
+    "lambda-serve": "netlify-lambda serve functions",
+    "lambda-build": "netlify-lambda build functions"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "md5": "^2.2.1",
+    "netlify-lambda": "^1.6.3",
+    "query-string": "^6.9.0",
+    "request": "^2.88.0"
+  }
+}
