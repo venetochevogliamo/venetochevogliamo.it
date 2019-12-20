@@ -1,11 +1,11 @@
 ---
 layout: newsletter
-permalink: /newsletter/richiesta-iscrizione-effettuata/
+permalink: /email/richiesta-iscrizione/
 sitemap: false
 ---
 
-# Richiesta iscrizione effettuata
+# Richiesta Iscrizione
 
 Grazie per il tuo interesse!
 
-Per favore controlla la tua email per confermare l'iscrizione alla newsletter.
+Per favore controlla la tua email per confermare il tuo indirizzo email.

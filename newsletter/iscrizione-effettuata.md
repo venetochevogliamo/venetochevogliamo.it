@@ -1,9 +1,9 @@
 ---
 layout: newsletter
-permalink: /newsletter/iscrizione-effettuata/
+permalink: /email/verifica-completata/
 sitemap: false
 ---
 
-# Iscrizione confermata
+# Verifica Completata
 
-Iscrizione effettuata con successo.
+Email verificata con successo. A presto!
