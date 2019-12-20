@@ -8,7 +8,7 @@ document.addEventListener("change", function(e) {
         .length > max
     ) {
       e.target.checked = false;
-      console.log(`${max} buttons are alraedy checked!`);
+      // console.log(`${max} buttons are alraedy checked!`);
     }
   }
   // Check at least 2 checkbox are checked and gdpr
@@ -24,16 +24,16 @@ document.addEventListener("change", function(e) {
 ///////////
 
 //post request URL
-const URL = "/.netlify/functions/submit";
+const URL = "/.netlify/functions/appello";
 
 //function to make a post request to lambda function using the fetch API
 const sendEmail = async (url, data = {}) => {
-  // Default options are marked with *
-  const response = await fetch(url, {
+  return await fetch(url, {
     method: "POST",
     body: data
-  });
-  return await response.json(); // parses JSON response into native JavaScript objects
+  })
+    .then(response => response.json())
+    .catch(error => console.error(error));
 };
 
 //get form element
@@ -54,13 +54,13 @@ emailForm.addEventListener("submit", e => {
         submissionFeedback.className = "alert alert-success";
         emailForm.style.display = "none";
       } else {
-        submissionFeedback.innerText = "Error. Please Retry";
+        submissionFeedback.innerText = response.result;
         submissionFeedback.className = "alert alert-danger";
       }
     })
     .catch(error => {
-      console.log(error);
-      submissionFeedback.innerText = "Error. Please Retry";
+      // console.log(error);
+      submissionFeedback.innerText = error;
       submissionFeedback.className = "alert alert-danger";
     });
 });

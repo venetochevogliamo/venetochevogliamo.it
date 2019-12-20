@@ -105,9 +105,13 @@ $input-border-radius: 0px;
 
 // Navbar
 
-$navbar-padding-y: 1.5rem;
+$navbar-toggler-font-size: 16px;
+$navbar-toggler-border-radius: 0%;
+
+// $navbar-padding-y: 1.5rem;
 
 $navbar-dark-hover-color: $white;
+$border-width: 0px;
 
 $navbar-light-color: rgba($black, 0.3);
 $navbar-light-hover-color: $gray-900;
@@ -150,6 +154,11 @@ $grid-breakpoints: (
   text-transform: uppercase;
   padding: 15px;
   font-weight: 300;
+  @include media-breakpoint-down(md) {
+    .navbar-brand {
+      font-size: 14px;
+    }
+  }
 
   &-nav {
     .nav-link {
