@@ -192,6 +192,7 @@ $grid-breakpoints: (
   }
   label,
   i,
+  .form-text,
   .form-check-label {
     color: $black;
   }
@@ -560,7 +561,8 @@ h6 {
   text-align: justify;
   h1,
   h2 {
-    text-align: left;
+    text-align: center;
+    padding-top: 20px;
   }
 }
 
