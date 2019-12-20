@@ -196,6 +196,10 @@ $grid-breakpoints: (
   .form-check-label {
     color: $black;
   }
+  .btn-block {
+    margin-top: 20px;
+    font-size: 20px;
+  }
 
   .form-group {
     label {
