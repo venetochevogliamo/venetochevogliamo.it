@@ -4,6 +4,8 @@
   "private": true,
   "author": "Il Veneto che vogliamo",
   "scripts": {
+    "build": "yarn run jekyll-build; yarn run lambda-build;",
+    "jekyll-build": "jekyll build",
     "lambda-serve": "netlify-lambda serve functions",
     "lambda-build": "netlify-lambda build functions"
   },
