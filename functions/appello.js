@@ -128,10 +128,10 @@ const subscribeMC = async formData => {
         //console.log("Mailchimp body: " + JSON.stringify(bodyObj));
         //console.log("Status Code: " + response.statusCode);
         if (response.statusCode === 200) {
-          console.log("Added to list in Mailchimp subscriber list");
+          console.log("New member added");
           resolve();
         } else {
-          console.log("Error from MailChimp", bodyObj.detail);
+          console.log("MailChimp Error: ", bodyObj.detail);
           reject(bodyObj.detail);
         }
       }
