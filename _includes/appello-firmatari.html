@@ -1,0 +1,19 @@
+<div class="container" id="firmatari">
+  <div class="row justify-content-md-center py-3">
+    <div class="col col-md-12">
+      <h1>I Firmatari</h1>
+      <div class="row">
+        <div class="col-sm text-center">
+          <ul class="list-inline">
+            {% for person in site.data.appello-firmatari %}
+            <li class="list-inline-item">
+              {{ person.nome }}
+              <small><i>{{ person.provincia }}</i></small>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
