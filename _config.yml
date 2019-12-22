@@ -17,7 +17,8 @@ title: Il Veneto che vogliamo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.venetochevogliamo.it" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username:
+twitter:
+  card: summary
 github_username:
 facebook_url: venetochevogliamo
 lang: it_IT
