@@ -1,3 +1,4 @@
+// List municipalities per areas
 var provBelluno = [
   "Agordo",
   "Alano di Piave",
@@ -582,6 +583,8 @@ var provVicenza = [
   "Zugliano"
 ];
 
+// Toggle contribution adds mobile field
+
 var contribute = document.getElementById("contribute");
 var toggle = document.getElementById("mce-group[23069]-23069-0");
 var mobile = document.getElementById("mce-MOBILE");
@@ -590,6 +593,8 @@ function changeContribute() {
   contribute.style.display = toggle.checked ? "block" : "none";
   mobile.required = toggle.checked ? true : false;
 }
+
+// Dinamic dropdown based by chosen area
 
 function createOption(ddl, text, value) {
   var opt = document.createElement("option");

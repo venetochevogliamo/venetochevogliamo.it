@@ -105,9 +105,13 @@ $input-border-radius: 0px;
 
 // Navbar
 
-$navbar-padding-y: 1.5rem;
+$navbar-toggler-font-size: 16px;
+$navbar-toggler-border-radius: 0%;
+
+// $navbar-padding-y: 1.5rem;
 
 $navbar-dark-hover-color: $white;
+$border-width: 0px;
 
 $navbar-light-color: rgba($black, 0.3);
 $navbar-light-hover-color: $gray-900;
@@ -150,6 +154,11 @@ $grid-breakpoints: (
   text-transform: uppercase;
   padding: 15px;
   font-weight: 300;
+  @include media-breakpoint-down(md) {
+    .navbar-brand {
+      font-size: 14px;
+    }
+  }
 
   &-nav {
     .nav-link {
@@ -183,8 +192,13 @@ $grid-breakpoints: (
   }
   label,
   i,
+  .form-text,
   .form-check-label {
     color: $black;
+  }
+  .btn-block {
+    margin-top: 20px;
+    font-size: 20px;
   }
 
   .form-group {
@@ -193,12 +207,15 @@ $grid-breakpoints: (
       font-size: $h5-font-size;
     }
   }
-  .privacy {
+  .privacy,
+  #themes {
     .styled-checkbox {
       position: absolute; // take it out of document flow
+      display: inline-block;
       opacity: 0; // hide it
 
       & + label {
+        display: block;
         position: relative;
         cursor: pointer;
         padding: 0;
@@ -544,8 +561,29 @@ h6 {
   }
 }
 
+#text-appello {
+  text-align: justify;
+  h1,
+  h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+
 #contribute {
   display: none;
+}
+
+#firmatari {
+  h1 {
+    text-align: center;
+  }
+  // .col-sm {
+  //   margin-top: 10px;
+  // }
+  .list-inline-item {
+    margin: 10px;
+  }
 }
 
 #social {

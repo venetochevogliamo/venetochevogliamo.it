@@ -32,7 +32,8 @@
   />
 
   <script defer src="{{ site.baseurl }}/assets/fontawesome/js/all.js"></script>
-
-  {% seo %} {% include cookie-consent.html %} {% include
-  analytics/google-analytics.html %} {% include analytics/hotjar.html %}
+  {% if page.layout == "appello" %}
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  {% endif %} {% seo %} {% include cookie-consent.html %} {% include
+  analytics/google-analytics.html %}
 </head>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html lang="it">
+  {% include head.html %}
+  <body>
+    {% include navbar.html %} {% include header.html %}
+    <div class="container">
+      <div class="row justify-content-md-center py-5">
+        <div class="col col-md-8" id="text-appello">
+          {{ content }} {% if page.social %}
+          <div id="social">
+            {% include share-buttons.html %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% include /forms/appello.html %} {% include appello-firmatari.html %} {%
+    include js.html %} {% include footer.html %}
+  </body>
+</html>

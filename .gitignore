@@ -2,3 +2,11 @@ _site
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
+
+# yarn and lambda
+node_modules
+.env
+lambda
+
+# Local Netlify folder
+.netlify
