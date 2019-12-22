@@ -170,14 +170,14 @@ exports.handler = async event => {
         return {
           statusCode: 400,
           body: JSON.stringify({
-            result: "Verifica di sicurezza non valida"
+            result: "Errore: verifica di sicurezza non valida. Riprova."
           })
         };
       } else if (e === "Already Submitted") {
         return {
           statusCode: 400,
           body: JSON.stringify({
-            result: "Hai già sottoscritto questo appello"
+            result: "Errore: hai già sottoscritto questo appello."
           })
         };
       }
