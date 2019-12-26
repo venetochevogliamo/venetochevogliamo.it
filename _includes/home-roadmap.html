@@ -1,8 +1,8 @@
 <!-- roadmap -->
 <div class="roadmap" id="roadmap">
-  <div class="container mt-5 mb-5">
-    <div class="row">
-      <div class="col-md-6 offset-md-3">
+  <div class="container">
+    <div class="row justify-content-md-center py-5">
+      <div class="col-md-8">
         <h1>Prossimi incontri</h1>
         <ul class="timeline">
           {% for e in site.data.events %}
@@ -14,8 +14,8 @@
             <p class="float-right">{{ e.date }}</p>
             <p>
               <br />
-              <i class="fas fa-map-marked-alt"></i> {{ e.location }}
-              {% if e.live %}
+              <i class="fas fa-map-marked-alt"></i> {{ e.location }} {% if
+              e.live %}
               <br />
               <i class="far fa-play-circle"></i>
               <a target="_blank" href="{{ e.live }}">Guarda la diretta</a>

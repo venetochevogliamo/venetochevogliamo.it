@@ -1,0 +1,92 @@
+<!-- about -->
+<div class="container" id="text-appello">
+  <div class="row justify-content-md-center py-5">
+    <div class="col col-md-8">
+      <h1>Un progetto politico per il Veneto che vogliamo</h1>
+      <p class="text-justify">
+        In Veneto, una delle terre più inquinate d’Europa dove i cittadini sono
+        sempre più lontani dalla politica, le elezioni regionali del 2020
+        aprono, dopo 25 anni, una nuova opportunità. Siamo una regione con una
+        netta predominanza di un partito come la Lega, oramai sempre più vocato
+        a conservare il proprio potere, cavalcare e strumentalizzare temi
+        nazionali dimenticando nella maggioranza dei casi le specificità e le
+        esigenze territoriali.
+      </p>
+      <p class="text-justify">
+        Negli ultimi mesi abbiamo fatto assemblee in tutta la regione. Abbiamo
+        incontrato molti veneti attivi e radicati nel territorio, convinti che
+        il futuro non sia scritto e che serva mettersi in gioco tutti assieme
+        per disegnarlo. Abbiamo capito che in questo momento è veramente
+        possibile rimettere al centro le grandi questioni della Regione,
+        connettere e riconnettere le persone e le esperienze che hanno saputo
+        individuare risposte concrete sul territorio.
+      </p>
+      <p class="text-justify">
+        Per farlo serve costruire un progetto politico ampio, generoso,
+        alternativo, concreto e reale, che metta al centro i contenuti e i temi
+        da cui è necessario partire per costruire una regione più equa, pulita,
+        sana e innovativa.
+      </p>
+
+      <!-- read more -->
+      <a
+        data-toggle="collapse"
+        href="#collapseText"
+        role="button"
+        aria-expanded="false"
+        aria-controls="collapseText"
+        id="readmore"
+      >
+        Leggi di pi&ugrave;...
+      </a>
+
+      <div class="collapse" id="collapseText">
+        {% for a in site.data.appello %}
+        <h2>{{ a.title }}</h2>
+        <p class="text-justify">
+          {{ a.desc }}
+        </p>
+        {% endfor %}
+        <!-- ending -->
+        <p class="text-justify">
+          Il progetto politico di cui abbiamo bisogno e che vogliamo costruire
+          parte da questi temi, ed è aperto a chiunque li riconosca come
+          centrali e strategici per costruire il nostro futuro.
+        </p>
+        <p class="text-justify">
+          Perchè sia un progetto politico capace di fare la differenza, nelle
+          prossime settimane serve costruire momenti di confronto programmatico
+          nei territori per la stesura di un programma partecipato che parta da
+          questo minimo comune denominatore.
+        </p>
+        <p class="text-justify">
+          Serve lavorare per cedere sovranità ad un percorso che non appartiene
+          a qualcuno ma è di tutte e tutti i Veneti che credono nella
+          sperimentazione di nuove forme di partecipazione democratica. Un
+          percorso di tutte e tutti i Veneti che vorranno fare un passo indietro
+          con le loro singole identità per farne fare molti avanti alla regione
+          più bella del mondo.
+        </p>
+        <p class="text-justify">
+          Un percorso che come prima cosa deve coinvolgere i cittadini e le
+          cittadine e renderli protagonisti di una nuova fase politica, quella
+          in cui la nostra regione inizia ad affrontare veramente le sfide che
+          pone il nostro tempo, per tornare ad essere quel riferimento a livello
+          nazionale ed europeo che ha saputo essere in passato.
+        </p>
+        <p class="text-justify">
+          È una grande sfida. Una sfida alle vecchie logiche della politica, una
+          sfida alla disaffezione e ai luoghi comuni. La strada che abbiamo di
+          fronte è in salita, come spesso accade nelle sfide cruciali per una
+          comunità, e non esistono scorciatoie. È però l’unica possibile da
+          percorrere se vogliamo una reale nuova stagione politica veneta.
+          Partiamo da qui e partiamo insieme.
+        </p>
+      </div>
+
+      <div id="social">
+        {% include share-buttons.html %}
+      </div>
+    </div>
+  </div>
+</div>
