@@ -142,10 +142,12 @@ const subscribeMC = async formData => {
 exports.handler = async event => {
   const formData = queryString.parse(event.body);
   if (event.httpMethod !== "POST") {
+    let msg = "Method Not Accepted";
+    console.log(msg);
     return {
       statusCode: 405,
       body: JSON.stringify({
-        message: "Method Not Accepted"
+        message: msg
       })
     };
   } else {
@@ -167,17 +169,21 @@ exports.handler = async event => {
       };
     } catch (e) {
       if (e === "Failed Captcha Verification") {
+        let msg = "Errore: verifica di sicurezza non valida. Riprova.";
+        console.log(msg);
         return {
           statusCode: 400,
           body: JSON.stringify({
-            result: "Errore: verifica di sicurezza non valida. Riprova."
+            result: msg
           })
         };
       } else if (e === "Already Submitted") {
+        let msg = "Errore: hai già sottoscritto questo appello.";
+        console.log(msg);
         return {
           statusCode: 400,
           body: JSON.stringify({
-            result: "Errore: hai già sottoscritto questo appello."
+            result: msg
           })
         };
       }
