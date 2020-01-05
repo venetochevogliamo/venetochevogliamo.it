@@ -563,7 +563,10 @@ h6 {
 
 #text-appello {
   text-align: justify;
-  h1,
+  h1 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
   h2 {
     text-align: center;
     padding-top: 20px;

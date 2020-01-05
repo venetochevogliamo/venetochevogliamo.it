@@ -13,15 +13,13 @@
   </a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"></li>
+      {% for item in site.navbar %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ site.url }}/#about">Che cos'è</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.url }}/progetto-politico/"
-          >Progetto Politico</a
+        <a class="nav-link" href="{{ site.url }}{{ item.url }}"
+          >{{ item.title }}</a
         >
       </li>
+      {% endfor %}
     </ul>
   </div>
 </nav>
