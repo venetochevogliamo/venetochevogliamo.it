@@ -40,6 +40,7 @@
 - date: 15 Gennaio 2020
   place: Assemblea provinciale | Belluno
   fb: https://www.facebook.com/events/678397722695054/
+  location: Biblioteca Civica di Ponte nelle Alpi
   new: true
 - date: 15 Gennaio 2020
   place: Assemblea provinciale | Venezia
@@ -65,4 +66,9 @@
   place: Assemblea provinciale | Treviso
   fb: https://www.facebook.com/events/3059091400982932/
   location: Sala Consiliare ex sede circoscrizionale di Fiera
+  new: true
+- date: 22 Gennaio 2020
+  place: Assemblea provinciale | Verona
+  fb: https://www.facebook.com/events/746370275771203/
+  location: Legambiente Verona
   new: true
