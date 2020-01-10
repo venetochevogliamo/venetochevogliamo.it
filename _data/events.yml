@@ -38,14 +38,28 @@
   location: Sala Diego Valeri, Padova
   live: https://www.facebook.com/venetochevogliamo/videos/564942744283660/
 - date: 15 Gennaio 2020
+  place: Assemblea provinciale | Belluno
+  fb: https://www.facebook.com/events/678397722695054/
+  new: true
+- date: 15 Gennaio 2020
   place: Assemblea provinciale | Venezia
   fb: https://www.facebook.com/events/2570425123202679/
   location: Sala della Municipalità di Marghera
+  new: true
+- date: 15 Gennaio 2020
+  place: Assemblea provinciale | Vicenza
+  fb: https://www.facebook.com/events/451399305812903/
+  location: Villa Tacchi
   new: true
 - date: 16 Gennaio 2020
   place: Assemblea provinciale | Rovigo
   fb: https://www.facebook.com/events/512743306264137/
   location: Palazzo della Gran Guardia
+  new: true
+- date: 16 Gennaio 2020
+  place: Assemblea provinciale | Padova
+  fb: https://www.facebook.com/events/646342672785881/
+  location: Sala Paladin di Palazzo Moroni
   new: true
 - date: 17 Gennaio 2020
   place: Assemblea provinciale | Treviso

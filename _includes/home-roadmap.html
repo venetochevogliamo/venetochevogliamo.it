@@ -14,8 +14,9 @@
             <p class="float-right">{{ e.date }}</p>
             <p>
               <br />
-              <i class="fas fa-map-marked-alt"></i> {{ e.location }} {% if
-              e.live %}
+              {% if e.location %}
+              <i class="fas fa-map-marked-alt"></i> {{ e.location }} {% endif
+              %}{% if e.live %}
               <br />
               <i class="far fa-play-circle"></i>
               <a target="_blank" href="{{ e.live }}">Guarda la diretta</a>

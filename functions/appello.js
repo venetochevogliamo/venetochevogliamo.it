@@ -47,7 +47,7 @@ const checkMC = async email => {
 
         if (response.statusCode === 200) {
           // console.log(bodyObj);
-          if (bodyObj.merge_fields["APPELLO"] === 1) {
+          if (bodyObj.merge_fields["APPELLO"] !== "") {
             return reject("Already Submitted");
           } else {
             resolve();
@@ -95,7 +95,7 @@ const subscribeMC = async formData => {
         LASTNAME: formData.LASTNAME,
         PROVINCIA: formData.PROVINCIA,
         COMUNE: formData.COMUNE,
-        APPELLO: "1"
+        APPELLO: new Date().getTime()
       },
       interests: {
         c2c154531d: formData.OPTION1 === "true" ? true : false,
