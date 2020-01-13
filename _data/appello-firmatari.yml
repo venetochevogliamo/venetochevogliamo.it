@@ -5,8 +5,10 @@
 - {comune: Treviso, nome: Amaglio Michele}
 - {comune: Portgruaro, nome: Ambrosio Daniele}
 - {comune: Padova, nome: Andreatta Marco}
+- {comune: Nogara, nome: Andreoli Paolo}
 - {comune: Cadoneghe, nome: Andreotti Michela}
 - {comune: Padova, nome: Andrian Giorgio}
+- {comune: Rovigo, nome: Andriotto Mario}
 - {comune: Fumane, nome: Anoardo Riccardo}
 - {comune: Padova, nome: Antonello Giulia}
 - {comune: Padova, nome: Arnau Francesco}
@@ -14,20 +16,26 @@
 - {comune: Vicenza, nome: Asproso Ciro}
 - {comune: Padova, nome: Babazadeh Azadeh}
 - {comune: Villorba, nome: Baccichetto Alberto}
+- {comune: Dueville, nome: Bagnara Stefano}
 - {comune: Schio, nome: Ballardin Renata}
 - {comune: Padova, nome: Ballestrin Gianni}
 - {comune: Zugliano, nome: Ballico Tarcisio}
 - {comune: Padova, nome: Balzan Alessandro}
 - {comune: Padova, nome: Bano Laura}
+- {comune: Treviso, nome: Barbara Grazia}
 - {comune: Piazzola sul Brenta, nome: Barbieri Antonella}
 - {comune: Padova, nome: Barizza Lucio}
 - {comune: Montagnana, nome: Baruffaldi Luciana}
 - {comune: Padova, nome: Battista Caterina}
+- {comune: Teglio Veneto, nome: Battiston Antonella}
 - {comune: "Ponte San Nicol\xF2", nome: Bazzi Hussein}
+- {comune: Vazzola, nome: Bazzo Maurizio}
+- {comune: Rovigo, nome: Beccati Marina}
 - {comune: "Scorz\xE8", nome: Bedon Alice}
 - {comune: Longarone, nome: Belhadj Assia}
 - {comune: Padova, nome: Belluardo Piera}
 - {comune: Feltre, nome: Bellumat Angelo}
+- {comune: Feltre, nome: Bellumat Sabrina}
 - {comune: Vicenza, nome: Belpinati Matteo}
 - {comune: Conegliano, nome: Benacchio Dino}
 - {comune: Limena, nome: Benazzato Lorella}
@@ -40,14 +48,21 @@
 - {comune: Venezia, nome: Bernaus Vladimiro}
 - {comune: Noale, nome: Bertin Alessandro}
 - {comune: Noale, nome: Bertin Elena}
+- {comune: San Martino Buon Albergo, nome: Bertoldi Lucio}
 - {comune: Saccolongo, nome: Berton Alberto}
 - {comune: Padova, nome: Berton Damiano}
 - {comune: Cesiomaggiore, nome: Bettega Gianvittore}
+- {comune: Rubano, nome: Bettio Cristina}
+- {comune: Schio, nome: Bevilacqua Paolo}
+- {comune: Selvazzano Dentro, nome: Bezzati Marina}
 - {comune: Ceregnano, nome: Bianchi Giorgio}
 - {comune: Padova, nome: Biancotto Paola}
+- {comune: Rovigo, nome: Biasissi Claudia}
 - {comune: Padova, nome: Bicciato Francesco}
+- {comune: Legnago, nome: Biondani Andrea}
 - {comune: Padova, nome: Biondi Massimo}
 - {comune: Rovigo, nome: Biscaro Alessandra}
+- {comune: Padova, nome: Boaretto Marta}
 - {comune: Padova, nome: Boggian Paola}
 - {comune: Mirano, nome: Boldrin Giovanni}
 - {comune: Ceregnano, nome: Bolzoni Mirko}
@@ -59,25 +74,37 @@
 - {comune: Padova, nome: Bonarrigo Andrea}
 - {comune: Schio, nome: Bonato Denis}
 - {comune: Borgo Valbelluna, nome: Bonetta Vittorio}
+- {comune: Caorle, nome: Bonetto Roberto}
+- {comune: Selvazzano Dentro, nome: Bordigato Massimo}
 - {comune: Caldogno, nome: Bordon Raniero}
+- {comune: Padova, nome: Bortolin Daniela}
 - {comune: Padova, nome: Boscaro Federico}
+- {comune: Vicenza, nome: Bozzola Loredana}
 - {comune: Padova, nome: Bozzolan Giuliana}
 - {comune: Caldiero, nome: Braga Andrea}
+- {comune: Albignasego, nome: Braga Mirko}
 - {comune: San Giorgio delle Pertiche, nome: Bragagnolo Stefano}
+- {comune: Verona, nome: Bragaja Francesca}
 - {comune: Ponte di Piave, nome: Bressan Federico}
 - {comune: Padova, nome: Bressan Francesco}
 - {comune: Padova, nome: Bressan Marianna}
 - {comune: Padova, nome: Bridi Giacomo}
+- {comune: Rovigo, nome: Brigo Renzo}
 - {comune: Borgo Valbelluna, nome: Bristot Maria Angela}
 - {comune: Treviso, nome: Brollo Dario}
 - {comune: Cavallino-Treporti, nome: Brondino Margherita}
 - {comune: Legnago, nome: Bronuzzi Graziano}
+- {comune: Venezia, nome: Brunzin Massimo}
 - {comune: Padova, nome: Buffa Alessandro}
+- {comune: Rovigo, nome: Buoso Adriano}
+- {comune: Due Carrare, nome: Burattin Graziano}
 - {comune: Padova, nome: Busato Sara}
+- {comune: Padova, nome: Busetto Francesco}
 - {comune: Schio, nome: Busetto Luca}
 - {comune: Vicenza, nome: Busetto Paola}
 - {comune: Padova, nome: Buso Gabriele}
 - {comune: Monselice, nome: Buson Monica}
+- {comune: "Ponte San Nicol\xF2", nome: Buvoli Alessandra}
 - {comune: Comelico Superiore, nome: Buzzo Alessandra}
 - {comune: Venezia, nome: Caccia Beppe}
 - {comune: Padova, nome: Cacciavillani Cosimo}
@@ -89,22 +116,30 @@
 - {comune: Padova, nome: Calore Matteo}
 - {comune: Verona, nome: Campagnari Francesco}
 - {comune: Verona, nome: Campagnari Giuseppe}
+- {comune: Cittadella, nome: Campagnaro Sara}
+- {comune: Feltre, nome: Campigotto Cesare}
 - {comune: Feltre, nome: Campigotto Cesare}
 - {comune: Ponte nelle Alpi, nome: Camuffo Monica}
 - {comune: Padova, nome: Cancellier Cecilia}
 - {comune: Schio, nome: Canova Annalisa}
+- {comune: Treviso, nome: Capano Silvio}
 - {comune: Vigonovo, nome: Carletti Alessandra}
 - {comune: Mestrino, nome: Carpanese Daniele}
 - {comune: Padova, nome: Carrai Marco}
 - {comune: Padova, nome: Carraro Roberto}
 - {comune: Treviso, nome: Casagrande Gabriella}
 - {comune: Padova, nome: Casetta Devis}
+- {comune: Padova, nome: Castagns Andrea}
 - {comune: Venezia, nome: Castelli Enzo}
 - {comune: Schio, nome: Catelan Francesca}
+- {comune: Schio, nome: Cattelan Rita}
 - {comune: Padova, nome: Cavallaro Diego}
+- {comune: Padova, nome: Cavallaro Sebastian}
 - {comune: Schio, nome: Cavedon Francesca}
+- {comune: Venezia, nome: Cazzin Rossella}
 - {comune: Monticello Conte Otto, nome: Cazzola Bruno}
 - {comune: Malo, nome: Cecconello Chiara}
+- {comune: Padova, nome: Centamore Francesco}
 - {comune: Valdagno, nome: Centomo Giulio}
 - {comune: Venezia, nome: Ceraolp Maria}
 - {comune: Borgo Valbelluna, nome: Cerentin Alessia}
@@ -114,18 +149,23 @@
 - {comune: Padova, nome: Cestarollo Antonio}
 - {comune: Vicenza, nome: Chemello Marco}
 - {comune: Schio, nome: Chioccarello Nadia}
+- {comune: Rovigo, nome: Chiodi Laura}
 - {comune: Belluno, nome: Cibien Walter}
+- {comune: Venezia, nome: Cini Alessandro}
 - {comune: Mogliano Veneto, nome: Cinquegrani Nicola}
 - {comune: Belluno, nome: Ciociano Bottaretto Marco}
+- {comune: Venezia, nome: Cipolato Elena}
 - {comune: Padova, nome: Cipri Gabriele}
 - {comune: Venezia, nome: Cisilino Maria Luisa}
 - {comune: Padova, nome: Citran Carla}
 - {comune: Cadoneghe, nome: Citran Francesca}
 - {comune: Padova, nome: Citran Giovanni}
+- {comune: Adria, nome: Clemente Federico}
 - {comune: Gorgo al Monticano, nome: Coan Lisa}
 - {comune: Vicenza, nome: Cocco Matteo}
 - {comune: Teglio Veneto, nome: Colavitti Leonardo}
 - {comune: Venezia, nome: Comacchio Luigi}
+- {comune: Zevio, nome: Composta Antonio}
 - {comune: Crespadoro, nome: Consolaro Manuel}
 - {comune: Padova, nome: Contarello Francesca}
 - {comune: Galzignano, nome: Contarin Catia}
@@ -134,8 +174,10 @@
 - {comune: Mirano, nome: Coppo Giulia}
 - {comune: Padova, nome: Coppola Gabriella}
 - {comune: Padova, nome: Cortesi Agostino}
+- {comune: Vedelago, nome: Cortinovis Francesco}
 - {comune: Padova, nome: Cortivo Silvia}
 - {comune: Padova, nome: Cosimo Marco Scarcelli}
+- {comune: Jesolo, nome: Cossettini Giulio}
 - {comune: Vittorio Veneto, nome: Costantini Adriana}
 - {comune: Adria, nome: Crepaldi Thomas}
 - {comune: Padova, nome: Crescenzio Davide}
@@ -144,9 +186,14 @@
 - {comune: Schio, nome: Cunegato Carlo}
 - {comune: Rovigo, nome: Curina Claudio}
 - {comune: Auronzo di Cadore, nome: Da Ponte Becher Giuliano}
+- {comune: Auronzo di Cadore, nome: Da Ponte Luigi}
 - {comune: Padova, nome: Da Re Riccardo}
 - {comune: Galzignano Terme, nome: Dainese Ludovica}
+- {comune: Mareno di Piave, nome: Dal Bianco Eugenio}
+- {comune: Oderzo, nome: Dal Grande Christian}
 - {comune: Torrebelvicino, nome: Dalla Guarda Andrea}
+- {comune: Torreglia, nome: Dalziel Fiona Clare}
+- {comune: Piove di Sacco, nome: Daniele Carolina}
 - {comune: Padova, nome: Danieli Ermete}
 - {comune: Padova, nome: Danieli Silvia}
 - {comune: Verona, nome: Danzi Maurizio}
@@ -154,15 +201,20 @@
 - {comune: Padova, nome: De Bernardin Annalisa}
 - {comune: Santo Stefano di Cadore, nome: De Bernardin Roger}
 - {comune: Padova, nome: De Biasio Anna}
+- {comune: Montebelluna, nome: De Luigi Xenia}
 - {comune: Comelico Superiore, nome: De Monte Pangon Alessandro}
 - {comune: Santo Stefano di Cadore, nome: De Monte Pangon Filippo}
 - {comune: Venezia, nome: De Nardo Vincenzo}
+- {comune: Verona, nome: De Pasquale Marco}
 - {comune: Cittadella, nome: De Rossi Lisa}
 - {comune: Limena, nome: De Rossi Stefano}
 - {comune: Padova, nome: De Tuoni Eleonora}
 - {comune: Schio, nome: De Zen Giorgio}
 - {comune: Schio, nome: De Zen Paolo}
+- {comune: Ceregnano, nome: Destro Vanni}
+- {comune: Venezia, nome: Devescovi Claudia}
 - {comune: Padova, nome: Di Lorenzo Donata}
+- {comune: Padova, nome: Di Maso Annalisa}
 - {comune: Padova, nome: Di Mauro Aurora}
 - {comune: Padova, nome: Di Pietro Roberto}
 - {comune: Padova, nome: Di Stefano Franca}
@@ -175,6 +227,7 @@
 - {comune: Padova, nome: Duso Elena Maria}
 - {comune: Cadoneghe, nome: Enrica Berton}
 - {comune: Venezia, nome: Enzo Maurizio}
+- {comune: Treviso, nome: Fabbri Silvana}
 - {comune: Belluno, nome: Fabio De Bastiani}
 - {comune: Martellago, nome: Fallica Giovanna}
 - {comune: Grezzana, nome: Falsirollo Guido}
@@ -183,6 +236,9 @@
 - {comune: Mirano, nome: Farinati Valeria}
 - {comune: Campodarsego, nome: Fattori Cristina}
 - {comune: Venezia, nome: Fauche' Maria Grazia}
+- {comune: Altivole, nome: Favaretto Luisa}
+- {comune: Casale sul Sile, nome: Favaro Gemma}
+- {comune: Rovigo, nome: Favaro Natalia}
 - {comune: Venezia, nome: Favero Giorgio}
 - {comune: Padova, nome: Fazio Alberto}
 - {comune: Padova, nome: Feltracco Enrica}
@@ -190,33 +246,45 @@
 - {comune: Venezia, nome: Fenzo Barbara}
 - {comune: Verona, nome: Ferrari Francesco}
 - {comune: San Martino Buon Albergo, nome: Ferrarini Claudio}
+- {comune: Bagnoli di Sopra, nome: Ferraro Bruno}
 - {comune: "Ponte San Nicol\xF2", nome: Ferretti Christian}
 - {comune: Padova, nome: Ferri Enrico}
 - {comune: Padova, nome: Ferro Stefano}
 - {comune: San Giorgio delle Pertiche, nome: Filippi Marco}
+- {comune: Padova, nome: Fiorentin Enrico}
 - {comune: Schio, nome: Fistarol Antonio}
 - {comune: Padova, nome: Florian Diego}
 - {comune: Santa Giustina, nome: Fontana Fabrizio}
+- {comune: Padova, nome: Fracassa Lorella}
 - {comune: Santa Giustina, nome: Franceschini Alessio}
+- {comune: Padova, nome: Francesco Tosato}
 - {comune: Padova, nome: Frigo Sergio}
 - {comune: Schio, nome: Frigo Sergio}
 - {comune: Padova, nome: "Frison Nicol\xF2"}
 - {comune: Padova, nome: Fumian Carlo}
+- {comune: Venezia, nome: Furlan Gabriella}
 - {comune: Gruaro, nome: Furlanetto Marisa}
+- {comune: Dueville, nome: Fusato Erwin}
 - {comune: Rovigo, nome: Gaffeo Edoardo}
 - {comune: Padova, nome: Gallani Giulio}
 - {comune: Treviso, nome: Gallina Eugenio}
+- {comune: Padova, nome: Gallo Elena}
 - {comune: Padova, nome: Gamba Mariolina}
+- {comune: Rovigo, nome: Gardenghi Tania}
+- {comune: Rovigo, nome: Gasparetto Stori Giuseppe}
 - {comune: San Giorgio delle Pertiche, nome: Gasparini Marina}
 - {comune: Padova, nome: Gazzola Luca}
 - {comune: Rivoli Veronese, nome: Gelmetti Barbara Marianna}
 - {comune: Verona, nome: Genovese Vincenzo}
 - {comune: Padova, nome: Gheller Adriana}
+- {comune: Padova, nome: Giacomelli Cristina}
 - {comune: Venezia, nome: Giglioli Doriana}
 - {comune: Rovigo, nome: Giolo Paolo}
 - {comune: Vicenza, nome: Giuliari Giovanni}
+- {comune: Creazzo, nome: Gobbi Mauro}
 - {comune: Padova, nome: Gomiero Fabio}
 - {comune: Schio, nome: Grandesso Valentina}
+- {comune: Fara Vicentino, nome: Grazian Emilio}
 - {comune: Rovigo, nome: Gregnanin Serena}
 - {comune: "Maser\xE0 di Padova", nome: Grigoletto Emanuela}
 - {comune: Cona, nome: Grigolo Ezio}
@@ -228,36 +296,46 @@
 - {comune: Montegrotto Terme, nome: Kohlscheen Andreas}
 - {comune: Padova, nome: Kohlscheen Sebastian}
 - {comune: Padova, nome: Kopreinig Franca}
+- {comune: Marcon, nome: Lachin Margherita}
 - {comune: San Gregorio nelle Alpi, nome: Lanciano Enrico}
 - {comune: Rovigo, nome: Lazzarini Francesco}
 - {comune: Spinea, nome: Lazzaroni Sandro}
+- {comune: Belluno, nome: Lecis Pierenrico}
 - {comune: Padova, nome: Lentola Alberto}
 - {comune: Padova, nome: Lentola Carlo Alberto}
 - {comune: Venezia, nome: Leone Giovanni}
+- {comune: Vigonza, nome: Lion Alessandro}
 - {comune: Spinea, nome: Litt Giovanni}
 - {comune: Noale, nome: Longo Giacomo}
+- {comune: Padova, nome: Longo Maria-Francesca}
 - {comune: Selvazzano Dentro, nome: Loreggian Francesco}
 - {comune: Schio, nome: Lorenzi Elisabetta}
 - {comune: Padova, nome: Lorenzoni Arturo}
 - {comune: Padova, nome: Lorenzoni Blandina}
 - {comune: Padova, nome: Lorenzoni Elisabetta}
 - {comune: Padova, nome: Lorenzoni Giulia}
+- {comune: "Ponte San Nicol\xF2", nome: Lotto Stefano}
+- {comune: Belluno, nome: "Luciani Nicol\xF2"}
 - {comune: Venezia, nome: Lucio Rubini}
 - {comune: Rovigo, nome: Lugarini Marcello}
 - {comune: Padova, nome: Lunardi Anna}
 - {comune: Venezia, nome: Luxardi Lorenzo}
 - {comune: Vigonza, nome: Macario Enrico}
+- {comune: Padova, nome: Macor Luisa}
 - {comune: Spinea, nome: Mainardi Loredana}
 - {comune: Abano Terme, nome: Mainardi Mario}
 - {comune: Verona, nome: Malgarise Anna}
 - {comune: Padova, nome: Mancin Marina}
 - {comune: Padova, nome: Mandelli Margherita}
+- {comune: Conselve, nome: Maneo Cristian}
 - {comune: Venezia, nome: Mannise Renata}
 - {comune: Padova, nome: Manno Maurizio}
 - {comune: Padova, nome: Mannucci Paola}
 - {comune: Mogliano Veneto, nome: Mantovan Claudia}
 - {comune: Monselice, nome: Manzato Emiliamo}
+- {comune: Rovigo, nome: Maragno Dina}
 - {comune: Schio, nome: Marangon Massimiliano}
+- {comune: Padova, nome: Marcellan Alberto}
 - {comune: "Ponte San Nicol\xF2", nome: Marcellan Alberto}
 - {comune: Schio, nome: Marchesini Annalisa}
 - {comune: Padova, nome: Marchi Marta}
@@ -265,15 +343,19 @@
 - {comune: Padova, nome: Marcon Paola}
 - {comune: Campodarsego, nome: Marconi Giovanna}
 - {comune: Schio, nome: Marenda Giovanni}
+- {comune: Padova, nome: Margoni Martino}
 - {comune: Padova, nome: Marinaro Maurizio}
 - {comune: Verona, nome: Marini Stefania}
 - {comune: Padova, nome: Marinzulich Mariagrazia}
+- {comune: Padova, nome: Mario Maurizio}
 - {comune: Padova, nome: Martina Suppa}
 - {comune: Padova, nome: Masciadri Mila}
 - {comune: Schio, nome: Masetto Yvonne}
+- {comune: Padova, nome: Masiero Mauro}
 - {comune: Belluno, nome: Masut Francesco}
 - {comune: Legnago, nome: Mazzasette Mariapia}
 - {comune: Schio, nome: Mazzeracca Enrico Giovanni}
+- {comune: Rubano, nome: Mazzucato Ornella}
 - {comune: Rovigo, nome: Mazzucato Sara}
 - {comune: Tambre, nome: Mazzucco Loreta}
 - {comune: Galzignano Terme, nome: Melone Maria Carmine}
@@ -297,14 +379,18 @@
 - {comune: Feltre, nome: Milani Patrizia Maria}
 - {comune: Caldogno, nome: Mineo Federica}
 - {comune: Padova, nome: Mioni Anna}
+- {comune: Venezia, nome: Miracapillo Michela}
 - {comune: Verona, nome: Mirandola Filippo}
 - {comune: Adria, nome: Moda Wilma}
+- {comune: Venezia, nome: Mognato Michele}
 - {comune: Padova, nome: Molinari Marina}
 - {comune: Schio, nome: Mondin Laura}
 - {comune: Selvazzano Dentro, nome: Monterosso Fiorenza}
 - {comune: Padova, nome: Morandin Melissa}
 - {comune: Arcugnano, nome: Morandini Giorgio}
 - {comune: Padova, nome: Morando Giovanni}
+- {comune: Adria, nome: Mori Simone}
+- {comune: Monselice, nome: Moro Deborah}
 - {comune: Padova, nome: Moro Giancarlo}
 - {comune: Padova, nome: Moschetti Stefania}
 - {comune: Montegrotto Terme, nome: Moschin Federico}
@@ -315,14 +401,18 @@
 - {comune: Padova, nome: Musolino Paolo}
 - {comune: Padova, nome: Nalin Mario Fausto}
 - {comune: Padova, nome: Nalin Marta}
+- {comune: Vicenza, nome: Nardin Elisabetta}
 - {comune: Gruaro, nome: Nicodemo Marco}
 - {comune: Caldogno, nome: Nicolai Leonardo}
 - {comune: Mogliano Veneto, nome: Nilandi Giacomo}
+- {comune: Rovigo, nome: Nissotti Manuela}
+- {comune: Padova, nome: Nobili Maria Stella}
 - {comune: Padova, nome: Norbiato Diana}
 - {comune: "Ponte San Nicol\xF2", nome: Norbiato Simone}
 - {comune: Padova, nome: Oliveti Simonetta}
 - {comune: San Giorgio delle Pertiche, nome: Ometto Andrea}
 - {comune: San Giorgio delle Pertiche, nome: Ometto Giancarlo}
+- {comune: Mogliano Veneto, nome: Oscar Mancini}
 - {comune: Padova, nome: Ostanel Elena}
 - {comune: Padova, nome: Ostanel Guido}
 - {comune: Rovigo, nome: Osti Giorgio}
@@ -333,28 +423,43 @@
 - {comune: Venezia, nome: Palma Umberto}
 - {comune: Mirano, nome: Palumbo Cristina}
 - {comune: Conegliano, nome: Palumbo Massimo}
+- {comune: Adria, nome: Panareo Lucia}
 - {comune: Treviso, nome: Paoletti Marco}
+- {comune: Venezia, nome: Paolini Sara}
 - {comune: Adria, nome: Paralovo Federico}
+- {comune: Cadoneghe, nome: Parpajola Davide}
 - {comune: Monticello Conte Otto, nome: Pasqualetto Pietro}
 - {comune: Padova, nome: Pasquato Chiara}
+- {comune: Albignasego, nome: Pasquato Francesca}
 - {comune: Albignasego, nome: Pasquato Roberto}
 - {comune: Giacciano con Baruchella, nome: Pasquini Estella}
+- {comune: Padova, nome: Pastore Irene}
 - {comune: Teolo, nome: "Past\xF3 Mattia"}
+- {comune: Venezia, nome: Pauluzzi Chiara}
+- {comune: Treviso, nome: Pavan Paolo}
 - {comune: Cadoneghe, nome: Pavanello Luisa}
+- {comune: Adria, nome: Pavanin Anna}
+- {comune: Padova, nome: Pegolotti Marzia}
 - {comune: Noale, nome: Pellizzon Angela}
 - {comune: Venezia, nome: Penzo Francesco}
 - {comune: Feltre, nome: Perenzin Paolo}
 - {comune: Padova, nome: Perin Alessandro}
+- {comune: Vicenza, nome: Perrotta Murante Maurizio}
+- {comune: Vicenza, nome: Peruffo Beatrice}
+- {comune: Venezia, nome: Pesola Lorenzo}
 - {comune: Padova, nome: Pettenella Davide}
 - {comune: Valdagno, nome: Pianalto Andrea}
 - {comune: Schio, nome: Piazza Ivetta}
 - {comune: Schio, nome: Piccinelli Paola}
+- {comune: Padova, nome: Piccolo Pierluigi}
+- {comune: Padova, nome: Pieretti Stefano}
 - {comune: San Giorgio delle Pertiche, nome: Pietrantonio Vincenzo}
 - {comune: Feltre, nome: Pillon Massimo}
 - {comune: Verona, nome: Pinter Patrick}
 - {comune: Rovigo, nome: Piombo Daniele}
 - {comune: Vicenza, nome: Piovene Chiara}
 - {comune: Padova, nome: Pipitone Antonino}
+- {comune: Treviso, nome: Pizzinato Claudia}
 - {comune: Venezia, nome: Pizzo Giampietro}
 - {comune: Padova, nome: Planchestainer Paolo}
 - {comune: Vicenza, nome: Poggi Stefano}
@@ -362,8 +467,12 @@
 - {comune: Abano Terme, nome: Polese Roberata}
 - {comune: San Giorgio delle Pertiche, nome: Portaluri Elisa}
 - {comune: Feltre, nome: Possiedi Cristina}
+- {comune: Adria, nome: Pozzato Arianna}
+- {comune: Venezia, nome: Predieri Isotta}
 - {comune: Albignasego, nome: Primon Daniela}
 - {comune: Granze, nome: Prosdocimi Gianquinto Giorgio}
+- {comune: Padova, nome: Puca Rosa Maria}
+- {comune: Teolo, nome: Quartesan Donatella}
 - {comune: Padova, nome: Ragona Andrea}
 - {comune: Padova, nome: Rampazzo Enzo}
 - {comune: Padova, nome: Rampazzo Nicola}
@@ -372,16 +481,24 @@
 - {comune: Vigonza, nome: Rampazzo Stefania}
 - {comune: Schio, nome: Rampon Iacopo}
 - {comune: San Giorgio delle Pertiche, nome: Ranieri Francesco}
+- {comune: Venezia, nome: Ranieri Roberto}
+- {comune: Padova, nome: Redetti Andreina}
 - {comune: Venezia, nome: Regazzi Alessandra}
+- {comune: Venezia, nome: Riboni Angelo}
 - {comune: Padova, nome: Ricci Valentina}
 - {comune: Padova, nome: Ricciardelli Enrico}
 - {comune: Teolo, nome: Riefolo Vincenza}
+- {comune: Padova, nome: Rigano Paolo}
+- {comune: Verona, nome: Righetti Iacopo}
 - {comune: Venezia, nome: Righetto Costantina}
 - {comune: Mirano, nome: Rigobello Francesca}
+- {comune: Lusiana Conco, nome: Rigoni Roberto}
 - {comune: "Ponte San Nicol\xF2", nome: Rinoncini Enrico}
 - {comune: Treviso, nome: Risato Leonardo}
 - {comune: Treviso, nome: Riscica Patrizia}
+- {comune: San Giorgio in Bosco, nome: Rizzardi Sebastiano}
 - {comune: Padova, nome: Rizzardo Dora}
+- {comune: Rovigo, nome: Rizzi Silvia}
 - {comune: Padova, nome: Robazza Paolo}
 - {comune: Venezia, nome: Roccaforte Francesco}
 - {comune: Vicenza, nome: "Rodr\xEDguez Nora Haydee"}
@@ -391,9 +508,12 @@
 - {comune: Padova, nome: Romandini Paolo}
 - {comune: Schio, nome: Romare Daniele}
 - {comune: Monselice, nome: Rosina Andrea}
+- {comune: Cadoneghe, nome: Rosina Maria Cristina}
 - {comune: Padova, nome: Ruzzante Barbara}
 - {comune: Padova, nome: Ruzzante Piero}
 - {comune: Cadoneghe, nome: Sabbadin Vittorio}
+- {comune: Rovigo, nome: Saccardin Daniela Natascia}
+- {comune: Rovigo, nome: Saccardin Silvia}
 - {comune: Agordo, nome: Sala Nadia}
 - {comune: Padova, nome: Salinitro Michele}
 - {comune: Teolo, nome: Salvato Eugenio}
@@ -410,10 +530,13 @@
 - {comune: Vittorio Veneto, nome: Santonastaso Massimo}
 - {comune: Spinea, nome: Sartor Rafaele}
 - {comune: Schio, nome: Sartore Alessandra}
+- {comune: Feltre, nome: Sartori Giorgio}
 - {comune: Schio, nome: Sartori Mario}
+- {comune: Selvazzano Dentro, nome: Sartori Orfeo}
 - {comune: Padova, nome: Sartori Paolo}
 - {comune: Padova, nome: Sartori Patrizia}
 - {comune: Breganze, nome: Saugo Mario}
+- {comune: Padova, nome: Sauli Bruno}
 - {comune: Belluno, nome: Savasta Tiziana}
 - {comune: Venezia, nome: Savorgnano Michele}
 - {comune: Schio, nome: Scagliola Roberto Dario}
@@ -425,6 +548,7 @@
 - {comune: Padova, nome: Scapin Fabio}
 - {comune: Padova, nome: Scapin Riccardo}
 - {comune: Padova, nome: Scapin Sara}
+- {comune: Venezia, nome: Scaramuzza Gabriele}
 - {comune: Padova, nome: Scarso Meri}
 - {comune: Venezia, nome: Scelsi Pierpaolo}
 - {comune: Venezia, nome: Schenkel Franco}
@@ -435,6 +559,7 @@
 - {comune: Padova, nome: Schiavon Vally}
 - {comune: Maserada sul Piave, nome: "Schiochetto Nicol\xF2"}
 - {comune: Padova, nome: Schmidt Donatella}
+- {comune: Venezia, nome: Sciarretta Francesca}
 - {comune: Venezia, nome: Scibola Cristiano}
 - {comune: Venezia, nome: Scordino Marco}
 - {comune: Padova, nome: Scotti Alessandro}
@@ -446,19 +571,28 @@
 - {comune: Padova, nome: Segato Maurizio}
 - {comune: Padova, nome: Segato Stefano}
 - {comune: Saccolongo, nome: Semperlotti Loredana}
+- {comune: Rovigo, nome: Seren Barbara}
+- {comune: Battaglia Terme, nome: Sgaravatto Daniela}
+- {comune: Adria, nome: Shemuni Namik}
+- {comune: Rovigo, nome: Sigolo Nicola}
 - {comune: Castelfranco Veneto, nome: Silvagni Luca}
 - {comune: Vicenza, nome: Silvestri Andrea}
 - {comune: Feltre, nome: Slongo Paolo}
 - {comune: Schio, nome: Smiderle Monica}
 - {comune: Padova, nome: Solero Agnese}
+- {comune: Padova, nome: Soravia Angelo}
 - {comune: Padova, nome: Sorgato Ernesto}
 - {comune: Teglio Veneto, nome: Spivach Stefano}
 - {comune: Padova, nome: Squizzato Daniela}
 - {comune: Padova, nome: Stefano Collizzolli}
 - {comune: Bovolone, nome: Stevanini Marco}
+- {comune: Padova, nome: Stivanello Biancamaria}
+- {comune: San Gregorio nelle Alpi, nome: Stramare Elia}
+- {comune: Venezia, nome: Stratimirovich Alvise}
 - {comune: Monselice, nome: Sturaro Ileana}
 - {comune: Padova, nome: Suppa Nicole}
 - {comune: Abano Terme, nome: Tagliapietra Claudio}
+- {comune: Padova, nome: Tagliapietra Lorenzo}
 - {comune: Belluno, nome: Talamini Stefano}
 - {comune: Piove di Sacco, nome: Tamiazzo Elisabetta}
 - {comune: San Giorgio delle Pertiche, nome: Tasson Laura}
@@ -466,6 +600,7 @@
 - {comune: Albignasego, nome: Tescaro Federico}
 - {comune: Schio, nome: Teso Manuela}
 - {comune: Vicenza, nome: Testolin Gian Pietro}
+- {comune: Rovigo, nome: Todero Emanuela}
 - {comune: Vicenza, nome: Todesco Fabio}
 - {comune: Padova, nome: Toffanin Andrea}
 - {comune: Padova, nome: Tognato Lorenzo}
@@ -473,15 +608,21 @@
 - {comune: Padova, nome: Tognon Alessandro}
 - {comune: Venezia, nome: Tomasutti Alessandro}
 - {comune: Padova, nome: Tonazzo Alessia}
+- {comune: Limena, nome: Tonelli Arturo}
 - {comune: Sovizzo, nome: Tonin Marco}
 - {comune: Padova, nome: Tonolo Alberto}
 - {comune: Venezia, nome: Tonolo Enrico}
 - {comune: Treviso, nome: Tonon Maria Grazia}
+- {comune: Padova, nome: Tormene Anna Maria}
+- {comune: Morgano, nome: Torresan Luisa}
 - {comune: Noventa Padovana, nome: Tosello Marta}
+- {comune: Padova, nome: Tosetto Ruggero}
+- {comune: Venezia, nome: Trabucco Gianluca}
 - {comune: Mogliano Veneto, nome: Trevisin Stefania}
 - {comune: Adria, nome: Trombin Oriana}
 - {comune: Venezia, nome: Urbani Anna}
 - {comune: Mestrino, nome: Urbano Maristella}
+- {comune: Voltago Agordino, nome: Valcozzena Roberto}
 - {comune: Verona, nome: Valentina Borasco}
 - {comune: Schio, nome: Valle Alessandro}
 - {comune: Padova, nome: Vanni Mionica}
@@ -514,11 +655,13 @@
 - {comune: San Stino di Livenza, nome: Zandonella Anna}
 - {comune: Maserada sul Piave, nome: Zanesco Mariella}
 - {comune: Padova, nome: Zani Maria}
+- {comune: Padova, nome: Zanin Caterina}
 - {comune: Valli del Pasubio, nome: Zanini Jacopo}
 - {comune: Montecchio Maggiore, nome: Zanni Gino}
 - {comune: Portogruaro, nome: Zanon Adriano}
 - {comune: Padova, nome: Zanon Alessandra}
 - {comune: Schio, nome: Zanotto Anna}
+- {comune: Schio, nome: Zanotto Roberto}
 - {comune: Sant'Urbano, nome: Zanovello Egidio}
 - {comune: Schio, nome: Zanrosso Anna}
 - {comune: San Stino di Livenza, nome: Zanutel Rita}
@@ -527,8 +670,11 @@
 - {comune: Feltre, nome: Zatta Adis}
 - {comune: Padova, nome: Zenato Nelly}
 - {comune: Padova, nome: Zenere Gabriella}
+- {comune: Albignasego, nome: Zignale Franco}
 - {comune: Monselice, nome: Zilio Gastone}
 - {comune: Verona, nome: Zocca Marianna}
 - {comune: Valeggio sul Mincio, nome: Zoccatelli Riccardo}
 - {comune: Cadoneghe, nome: Zoletto Stefano}
+- {comune: Schio, nome: Zuliani Giulia}
+- {comune: Cadoneghe, nome: Zuppardo Angelo}
 - {comune: Padova, nome: Zuppel Cristina}
