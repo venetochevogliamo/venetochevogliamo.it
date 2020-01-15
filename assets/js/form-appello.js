@@ -40,27 +40,33 @@ const sendEmail = async (url, data = {}) => {
 submissionFeedback = document.querySelector("#submissionFeedback");
 emailForm = document.querySelector("#appelloForm");
 emailForm.addEventListener("submit", e => {
-  e.preventDefault();
+  var recaptcha = $("#g-recaptcha-response").val();
+  if (recaptcha === "") {
+    e.preventDefault();
+    alert("Errore: verifica di sicurezza mancate");
+  } else {
+    e.preventDefault();
 
-  //create input object to send as body of the event when the lambda function is invoked
-  const message = $("#appelloForm").serialize();
+    //create input object to send as body of the event when the lambda function is invoked
+    const message = $("#appelloForm").serialize();
 
-  sendEmail(URL, message)
-    .then(response => {
-      //if successful show feedback to client
-      if (response.result === "success") {
-        submissionFeedback.innerText =
-          "Grazie! Per favore controlla la tua email.";
-        submissionFeedback.className = "alert alert-success";
-        emailForm.style.display = "none";
-      } else {
-        submissionFeedback.innerText = response.result;
+    sendEmail(URL, message)
+      .then(response => {
+        //if successful show feedback to client
+        if (response.result === "success") {
+          submissionFeedback.innerText =
+            "Grazie! Per favore controlla la tua email.";
+          submissionFeedback.className = "alert alert-success";
+          emailForm.style.display = "none";
+        } else {
+          submissionFeedback.innerText = response.result;
+          submissionFeedback.className = "alert alert-danger";
+        }
+      })
+      .catch(error => {
+        // console.log(error);
+        submissionFeedback.innerText = error;
         submissionFeedback.className = "alert alert-danger";
-      }
-    })
-    .catch(error => {
-      // console.log(error);
-      submissionFeedback.innerText = error;
-      submissionFeedback.className = "alert alert-danger";
-    });
+      });
+  }
 });
