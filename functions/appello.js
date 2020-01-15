@@ -140,6 +140,7 @@ const subscribeMC = async formData => {
 };
 
 exports.handler = async event => {
+  console.log("EVENT\n" + JSON.stringify(event, null, 2));
   const formData = queryString.parse(event.body);
   if (event.httpMethod !== "POST") {
     let msg = "Method Not Accepted";
@@ -186,13 +187,15 @@ exports.handler = async event => {
             result: msg
           })
         };
+      } else {
+        console.log("Error: " + e);
+        return {
+          statusCode: 500,
+          body: JSON.stringify({
+            result: e
+          })
+        };
       }
-      return {
-        statusCode: 500,
-        body: JSON.stringify({
-          result: e
-        })
-      };
     }
   }
 };
