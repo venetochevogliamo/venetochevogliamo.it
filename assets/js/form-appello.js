@@ -43,7 +43,7 @@ emailForm.addEventListener("submit", e => {
   var recaptcha = $("#g-recaptcha-response").val();
   if (recaptcha === "") {
     e.preventDefault();
-    alert("Errore: verifica di sicurezza mancate");
+    alert("Si prega di controllare il recaptcha");
   } else {
     e.preventDefault();
 
