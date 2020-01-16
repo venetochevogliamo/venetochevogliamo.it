@@ -1,8 +1,7 @@
 name: Update Signers
-# This workflow is triggered on pushes to the repository.
 on:
   schedule:
-    - cron: "0 8,18,22 * * *"
+    - cron: "5 7,17,21 * * *"
 
 jobs:
   build:
