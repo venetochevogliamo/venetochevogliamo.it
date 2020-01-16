@@ -46,10 +46,13 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - LICENSE
+  - README.md
   - node_modules
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - functions
+  - src/functions/
+  - src/actions/
   - lambda

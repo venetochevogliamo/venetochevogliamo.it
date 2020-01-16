@@ -6,14 +6,16 @@
   "scripts": {
     "build": "yarn run jekyll-build; yarn run lambda-build;",
     "jekyll-build": "jekyll build",
-    "lambda-serve": "netlify-lambda serve functions",
-    "lambda-build": "netlify-lambda build functions"
+    "lambda-serve": "netlify-lambda serve src/functions/",
+    "lambda-build": "netlify-lambda build src/functions/",
+    "update-firmatari": "node src/actions/update-firmatari.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "md5": "^2.2.1",
     "netlify-lambda": "^1.6.3",
     "query-string": "^6.9.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
   }
 }
