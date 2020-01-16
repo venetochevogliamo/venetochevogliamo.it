@@ -1,0 +1,29 @@
+name: Update Signers
+# This workflow is triggered on pushes to the repository.
+on:
+  schedule:
+    - cron: "0 8,18,22 * * *"
+
+jobs:
+  build:
+    name: Update Signers
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+      - run: yarn install
+      - run: yarn run update-firmatari
+        env:
+           MAILCHIMP_API_KEY: ${{secrets.MAILCHIMP_API_KEY}}
+           MAILCHIMP_LIST_ID: ${{secrets.MAILCHIMP_LIST_ID}}
+           MAILCHIMP_REGION: ${{secrets.MAILCHIMP_REGION}}  
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Add new signers" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
