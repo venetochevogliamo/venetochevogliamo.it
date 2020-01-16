@@ -67,7 +67,7 @@ const subscribeMC = async formData => {
     var marketing;
 
     // newsletter optin
-    if (formData.OPTIN !== undefined && formData.OPTIN !== "true") {
+    if (formData.OPTIN !== undefined && formData.OPTIN === "true") {
       marketing = [
         {
           marketing_permission_id: "5cb1a1ba50",
