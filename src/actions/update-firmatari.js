@@ -35,7 +35,7 @@ async function GetFirmatari() {
     json.members.map(user => {
       const { APPELLO, FIRSTNAME, LASTNAME, COMUNE } = user.merge_fields;
       // check if user has signed and not pending
-      if (user.status != "pending" && APPELLO != "") {
+      if (user.status !== "pending" && APPELLO !== "") {
         firmatari.push({
           nome:
             capitalizeFirstLetter(LASTNAME) +
