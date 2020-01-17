@@ -1,7 +1,7 @@
 name: Update Signers
 on:
   schedule:
-    - cron: "5 7,17,21 * * *"
+    - cron: "0 */4 * * *"
 
 jobs:
   build:
