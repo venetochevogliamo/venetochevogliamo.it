@@ -36,7 +36,7 @@ const checkMC = async email => {
     request(
       {
         method: "GET",
-        url: `https://${MAILCHIMP_REGION}.api.mailchimp.com/3.0/lists/${MAILCHIMP_LIST_ID}/members/${memberID}/?fields=merge_fields`,
+        url: `https://${MAILCHIMP_REGION}.api.mailchimp.com/3.0/lists/${MAILCHIMP_LIST_ID}/members/${memberID}/`,
         headers: {
           Authorization: `apikey ${MAILCHIMP_API_KEY}`,
           "Content-Type": "application/json"
@@ -47,7 +47,10 @@ const checkMC = async email => {
 
         if (response.statusCode === 200) {
           // console.log(bodyObj);
-          if (bodyObj.merge_fields["APPELLO"] !== "") {
+          if (
+            bodyObj.merge_fields["APPELLO"] !== "" &&
+            bodyObj.status !== "pending"
+          ) {
             return reject("Already Submitted");
           } else {
             resolve();
