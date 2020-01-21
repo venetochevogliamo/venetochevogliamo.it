@@ -61,12 +61,14 @@ emailForm.addEventListener("submit", e => {
         } else {
           submissionFeedback.innerText = response.result;
           submissionFeedback.className = "alert alert-danger";
+          grecaptcha.reset();
         }
       })
       .catch(error => {
         // console.log(error);
         submissionFeedback.innerText = error;
         submissionFeedback.className = "alert alert-danger";
+        grecaptcha.reset();
       });
   }
 });
