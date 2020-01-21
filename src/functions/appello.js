@@ -3,11 +3,21 @@ const queryString = require("query-string");
 const md5 = require("md5");
 
 import { config as dotenvConfig } from "dotenv";
+import validator from "validator";
 
 dotenvConfig();
 
 const { MAILCHIMP_API_KEY, MAILCHIMP_LIST_ID, MAILCHIMP_REGION } = process.env;
 
+const validateInput = async data => {
+  return new Promise((resolve, reject) => {
+    if (!validator.isEmail(data.EMAIL)) {
+      reject("E-Mail non valida");
+    } else {
+      resolve();
+    }
+  });
+};
 const checkCaptcha = async code => {
   return new Promise((resolve, reject) => {
     const { RECAPTCHA_PRIVATE } = process.env;
@@ -90,14 +100,14 @@ const subscribeMC = async formData => {
       ];
     }
     const data = {
-      email_address: formData.EMAIL,
+      email_address: validator.normalizeEmail(formData.EMAIL),
       //status_if_new: "pending",
       status: "pending",
       merge_fields: {
-        FIRSTNAME: formData.FIRSTNAME,
-        LASTNAME: formData.LASTNAME,
-        PROVINCIA: formData.PROVINCIA,
-        COMUNE: formData.COMUNE,
+        FIRSTNAME: validator.escape(formData.FIRSTNAME),
+        LASTNAME: validator.escape(formData.LASTNAME),
+        PROVINCIA: validator.escape(formData.PROVINCIA),
+        COMUNE: validator.escape(formData.COMUNE),
         APPELLO: new Date().getTime()
       },
       interests: {
@@ -156,6 +166,7 @@ exports.handler = async event => {
     };
   } else {
     try {
+      await validateInput(formData);
       await checkCaptcha(formData["g-recaptcha-response"]);
       await checkMC(formData.EMAIL);
       await subscribeMC(formData);

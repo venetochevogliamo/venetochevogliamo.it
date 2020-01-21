@@ -16,6 +16,7 @@
     "netlify-lambda": "^1.6.3",
     "query-string": "^6.9.0",
     "request": "^2.88.0",
-    "request-promise": "^4.2.5"
+    "request-promise": "^4.2.5",
+    "validator": "^12.1.0"
   }
 }
