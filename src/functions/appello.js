@@ -76,7 +76,10 @@ const checkMC = async email => {
 const subscribeMC = async formData => {
   return new Promise((resolve, reject) => {
     // validated and secure
-    const memberID = md5(formData.EMAIL.toLowerCase());
+    const email = validator.normalizeEmail(formData.EMAIL, {
+      gmail_remove_dots: false
+    });
+    const memberID = md5(email);
     var marketing;
 
     // newsletter optin
@@ -100,9 +103,7 @@ const subscribeMC = async formData => {
       ];
     }
     const data = {
-      email_address: validator.normalizeEmail(formData.EMAIL, {
-        gmail_remove_dots: false
-      }),
+      email_address: email,
       //status_if_new: "pending",
       status: "pending",
       merge_fields: {
