@@ -100,7 +100,9 @@ const subscribeMC = async formData => {
       ];
     }
     const data = {
-      email_address: validator.normalizeEmail(formData.EMAIL),
+      email_address: validator.normalizeEmail(formData.EMAIL, {
+        gmail_remove_dots: false
+      }),
       //status_if_new: "pending",
       status: "pending",
       merge_fields: {
