@@ -21,7 +21,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "Add new signers" -a
+          git commit -m "[skip ci] Automatic deploy new signers" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
