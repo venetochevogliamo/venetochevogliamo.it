@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /storia/
+permalink: /calendario/
 sitemap: true
-title: "Storia"
+title: "Calendario"
 redirect_from:
   - /roadmap/
 ---

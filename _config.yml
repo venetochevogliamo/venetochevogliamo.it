@@ -24,8 +24,8 @@ navbar:
     url: /progetto-politico/
   - title: "Province"
     url: /province/
-  - title: "Storia"
-    url: /storia/
+  - title: "Calendario"
+    url: /calendario/
 
 # Social Network
 social:
