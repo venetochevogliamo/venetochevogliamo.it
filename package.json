@@ -17,6 +17,6 @@
     "query-string": "^6.10.1",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
-    "validator": "^12.1.0"
+    "validator": "^12.2.0"
   }
 }
