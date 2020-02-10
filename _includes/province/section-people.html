@@ -1,0 +1,21 @@
+<h3 class="py-4">Membri del Coordinamento</h3>
+<div class="row">
+  {% for prov in site.data.people %}
+  {% if prov.provincia == page.provincia %}
+  {% assign members_sorted = prov.membri | sort: "cognome" %}
+  {% for memb in members_sorted %}
+  <div class="col-12 col-lg-6">
+    <div class="my-2">
+      <!-- <img src="..." class="mr-3" alt="..."> -->
+      <h5 class="mt-0 mb-1">{{ memb.nome }} {{ memb.cognome }}</h5>
+      {% for ruoli in memb.ruolo %}
+        <span class="badge badge-pill badge-warning text-uppercase">{{ ruoli }}</span>
+      {% endfor %}
+      <br />
+      <small class="font-italic">{{ memb.comune }}</small>
+    </div>
+  </div>
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+</div>

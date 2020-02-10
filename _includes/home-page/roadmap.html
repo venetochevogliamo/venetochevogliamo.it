@@ -15,11 +15,12 @@
             <p>
               <br />
               {% if e.location %}
-              <i class="fas fa-map-marked-alt"></i> {{ e.location }} {% endif
-              %}{% if e.live %}
-              <br />
-              <i class="far fa-play-circle"></i>
-              <a target="_blank" href="{{ e.live }}">Guarda la diretta</a>
+                <i class="fas fa-map-marked-alt"></i> {{ e.location }}
+              {% endif%}
+              {% if e.live %}
+                <br />
+                <i class="far fa-play-circle"></i>
+                <a target="_blank" href="{{ e.live }}">Guarda la diretta</a>
               {% endif %}
             </p>
           </li>

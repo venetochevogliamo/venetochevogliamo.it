@@ -1,0 +1,28 @@
+<!-- ultimi eventi -->
+<div class="container">
+  <div class="row justify-content-md-center pt-5">
+    <div class="col-md-8 pb-5">
+      <h1>Prossimi incontri</h1>
+    </div>
+  </div>
+  <div class="row">
+    {% assign events = site.data.events | sort: "date" | reverse %} 
+    {% for e in events | limit: 3 %}
+    <div class="col-sm">
+      {% include event.html %}
+    </div>
+    {% endfor %}
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-8">
+        <p class="text-center">
+            <a
+              class="btn btn-link btn-lg btn-block text-decoration-none"
+              href="/roadmap/"
+              role="button"
+              >Roadmap <i class="far fa-calendar-alt"></i>
+            </a>
+          </p>
+    </div>
+  </div>
+</div>

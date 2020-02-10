@@ -1,73 +1,91 @@
-- date: 25 Giugno 2019
-  place: Padova
+- date: 2019-06-25 20:30
+  name: Primo Incontro
+  provincia: Padova
   fb: https://www.facebook.com/events/415202235742847/
-  location: Fornace Carotta
+  location: Fornace Carotta - Padova
   live: https://www.facebook.com/venetochevogliamo/videos/2544865102210725/
-- date: 2 Luglio 2019
-  place: Schio
+- date: 2019-07-02 20:30
+  name: Secondo Incontro
+  provincia: Vicenza
   fb: https://www.facebook.com/events/476064139810329/
-  location: Palazzo Toaldi Capra
+  location: Palazzo Toaldi Capra - Schio
   live: https://www.facebook.com/venetochevogliamo/videos/318078725738987/
-- date: 18 Luglio 2019
-  place: Adria
+- date: 2019-07-18 20:30
+  name: Terzo Incontro
+  provincia: Rovigo
   fb: https://www.facebook.com/events/457907768102062/
-  location: Ostello Amolara
+  location: Ostello Amolara - Adria
   live: https://www.facebook.com/venetochevogliamo/videos/1229280593919618/
-- date: 25 Settembre 2019
-  place: Marghera
+- date: 2019-09-25 20:30
+  name: Quarto Incontro
+  provincia: Venezia
   fb: https://www.facebook.com/events/2571663999727783/
-  location: Sala della Municipalità di Marghera
+  location: Sala della Municipalità - Marghera
   live: https://www.facebook.com/venetochevogliamo/videos/723594051489762/
-- date: 9 Ottobre 2019
-  place: Verona
+- date: 2019-10-09 20:30
+  name: Quinto Incontro
+  provincia: Verona
   fb: https://www.facebook.com/events/2310835322509671/
-  location: Centro Tommasoli
+  location: Centro Tommasoli - Verona
   live: https://www.facebook.com/venetochevogliamo/videos/3204555479617745/
-- date: 20 Novembre 2019
-  place: Belluno
+- date: 2019-11-20 20:30
+  name: Sesto Incontro
+  provincia: Belluno
   fb: https://www.facebook.com/events/414299029230967/
-  location: Sala del Palazzo Servizi di Sedico
+  location: Sala del Palazzo Servizi - Sedico
   live: https://www.facebook.com/venetochevogliamo/videos/471149160176772/
-- date: 27 Novembre 2019
-  place: Treviso
+- date: 2019-11-27 20:30
+  name: Settimo Incontro
+  provincia: Treviso
   fb: https://www.facebook.com/events/418002845493453/
-  location: Sala Consiliare ex sede circoscrizionale di Fiera
-- date: 10 Dicembre 2019
-  place: Assemblea regionale
+  location: Sala Consiliare ex sede circoscrizionale - Fiera
+- date: 2019-12-10 20:30
+  name: Assemblea Regionale
   fb: https://www.facebook.com/events/722978128194722/
-  location: Sala Diego Valeri, Padova
+  location: Sala Diego Valeri - Padova
   live: https://www.facebook.com/venetochevogliamo/videos/564942744283660/
-- date: 15 Gennaio 2020
-  place: Assemblea provinciale | Belluno
+- date: 2020-01-15 20:30
+  name: Assemblea provinciale
+  provincia: Belluno
   fb: https://www.facebook.com/events/678397722695054/
-  location: Biblioteca Civica di Ponte nelle Alpi
-- date: 15 Gennaio 2020
-  place: Assemblea provinciale | Venezia
+  location: Biblioteca Civica - Ponte nelle Alpi
+- date: 2020-01-15 20:30
+  name: Assemblea provinciale
+  provincia: Venezia
   fb: https://www.facebook.com/events/2570425123202679/
-  location: Sala della Municipalità di Marghera
-- date: 15 Gennaio 2020
-  place: Assemblea provinciale | Vicenza
+  location: Sala della Municipalità - Marghera
+- date: 2020-01-15 20:30
+  name: Assemblea provinciale
+  provincia: Vicenza
   fb: https://www.facebook.com/events/451399305812903/
   location: Villa Tacchi
   live: https://www.facebook.com/venetochevogliamo/videos/1950817981731149/
-- date: 16 Gennaio 2020
-  place: Assemblea provinciale | Rovigo
+- date: 2020-01-16 20:30
+  name: Assemblea provinciale
+  provincia: Rovigo
   fb: https://www.facebook.com/events/512743306264137/
   location: Palazzo della Gran Guardia
-- date: 16 Gennaio 2020
-  place: Assemblea provinciale | Padova
+- date: 2020-01-16 20:30
+  name: Assemblea provinciale
+  provincia: Padova
   fb: https://www.facebook.com/events/646342672785881/
-  location: Sala Paladin di Palazzo Moroni
-- date: 17 Gennaio 2020
-  place: Assemblea provinciale | Treviso
+  location: Sala Paladin (Palazzo Moroni) - Padova
+- date: 2020-01-17 20:30
+  name: Assemblea provinciale
+  provincia: Treviso
   fb: https://www.facebook.com/events/3059091400982932/
-  location: Sala Consiliare ex sede circoscrizionale di Fiera
-- date: 22 Gennaio 2020
-  place: Assemblea provinciale | Verona
+  location: Sala Consiliare ex sede circoscrizionale - Fiera
+- date: 2020-01-22 20:30
+  name: Assemblea provinciale
+  provincia: Verona
   fb: https://www.facebook.com/events/746370275771203/
-  location: Sala Barbarani (via Bertoni, 4 - Verona)
-- date: 25 Gennaio 2020
-  place: Assemblea regionale
+  location: Sala Barbarani - Verona
+- date: 2020-01-25 20:30
+  name: Assemblea Regionale
   fb: https://www.facebook.com/events/1552524494906878/
-  location: Sala Diego Valeri, Padova
-  live: https://www.facebook.com/venetochevogliamo/videos/161370138625910/
+  location: Sala Diego Valeri - Padova
+- date: 2020-02-15 10:30
+  name: Assemble Regionale
+  fb: https://www.facebook.com/events/1017830541936108/
+  location: Centro Civico Villa Lattes - Vicenza
+  indirizzo: Via Paolo Thaon Di Revel, 44 - Vicenza

@@ -1,7 +1,11 @@
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/js/popper.min.js"></script>
 <script src="{{ site.baseurl }}/assets/bootstrap/js/bootstrap.min.js"></script>
+
+{% comment %} js required only for form validation {% endcomment %}
+{% if page.form-validation %}
 <script src="{{ site.baseurl }}/assets/js/form-validation.js"></script>
 <script src="{{ site.baseurl }}/assets/js/form-appello.js"></script>
+<script src="{{ site.baseurl }}/assets/js/pagination.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/list-firmatari.js"></script>
+{% endif %}

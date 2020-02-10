@@ -1,0 +1,27 @@
+<h5>{{ e.name }}</h5>
+<h6 class="card-subtitle mb-2">{% include date.html %}</h6>
+<p>
+  {% comment %} upcoming event {% endcomment %}
+  {% assign timestamp = e.date | date: "%s" %}
+  {% assign now = "now" | date: "%s" %} 
+  {% if timestamp >= now %}
+    <span class="badge badge-pill badge-warning text-uppercase">Prossimamente</span>
+    <br />
+  {% endif %} 
+  {% if page.layout != "page-provincia" and e.provincia %}
+    <span class="badge badge-pill badge-success text-uppercase">{{ e.provincia }}</span>
+    <br />
+  {% endif%}
+  <small>{{ e.location }}</small>
+</p>
+<p>
+  <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="{{ e.fb }}">
+    <i class="fab fa-facebook"></i>
+  </a>
+  &nbsp;
+  {% if e.indirizzo %}
+  <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query={{ e.indirizzo }}">
+    <i class="fas fa-directions"></i>
+  </a>
+  {% endif %}
+</p>

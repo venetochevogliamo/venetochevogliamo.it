@@ -1,10 +1,9 @@
 ---
-layout: newsletter
-permalink: /email/richiesta-iscrizione/
+layout: default
+title: Richiesta Effettuata
+permalink: /iscrizione/richiesta-effettuata/
 sitemap: false
 ---
-
-# Richiesta Iscrizione
 
 Grazie per il tuo interesse!
 

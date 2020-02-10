@@ -4,16 +4,16 @@
       <h1>I Firmatari</h1>
       <div class="row">
         <div class="col-sm text-center">
-          <ul class="list-inline">
-            {% for person in site.data.appello-firmatari %}
-            <li class="list-inline-item">
-              {{ person.nome }}
-              <small><i>{{ person.comune }}</i></small>
-            </li>
-            {% endfor %}
-          </ul>
+          <div id="data-container"></div>
         </div>
       </div>
     </div>
   </div>
+  <div class="row justify-content-md-center py-3">
+    <div class="col-sm offset-md-4">
+      <div id="pagination-container"></div>
+    </div>
+    </div>
+
 </div>
+{% include scroll-up.html %}

@@ -591,7 +591,10 @@ var mobile = document.getElementById("mce-MOBILE");
 
 function changeContribute() {
   contribute.style.display = toggle.checked ? "block" : "none";
-  mobile.required = toggle.checked ? true : false;
+  // mobile.required = toggle.checked ? true : false;
+
+  // unchecked all active checkboxes if disable toggle
+  $('#themes :checkbox:enabled').prop('checked', false);
 }
 
 // Dinamic dropdown based by chosen area

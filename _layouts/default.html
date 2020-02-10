@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="it">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <div class="container">
+      <div class="row justify-content-md-center py-3">
+        <div class="col col-md-8">
+          {% include breadcrumbs.html %}
+          <h1 id="scroll">{{ page.title }}
+              {% if page.subtitle %}
+              <small class="text-muted">{{ page.subtitle }}</small>
+              {% endif %}
+          </h1>
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,53 +1,52 @@
-<a
-  class="btn btn-primary sharing-button--facebook"
-  href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{
-    site.baseurl
-  }}{{ page.url }}?utm_source=facebook&utm_medium=sharebuttons"
-  target="_blank"
-  rel="noopener"
-  role="button"
-  title="Condividi su Facebook"
->
-  <i class="fab fa-facebook-square"></i>
-</a>
+<div id="section-share-social">
+  <p class="text-center">
+    <b>Condividi questa pagina</b>
+  </p>
+  <p class="text-center">
+    <a
+      class="btn btn-primary sharing-button--facebook"
+      href="https://facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}?utm_source=facebook&utm_medium=sharebuttons"
+      target="_blank"
+      rel="noopener"
+      role="button"
+      title="Condividi su Facebook"
+    >
+      <i class="fab fa-facebook-square"></i>
+    </a>
 
-&nbsp;
+    &nbsp;
 
-<a
-  class="btn btn-primary sharing-button--twitter"
-  href="https://twitter.com/intent/tweet/?text={{ page.title }}&amp;url={{
-    site.url
-  }}{{ site.baseurl }}{{ page.url }}?utm_source=twitter&utm_medium=sharebuttons"
-  target="_blank"
-  rel="noopener"
-  role="button"
-  title="Condividi su Twitter"
->
-  <i class="fab fa-twitter"></i>
-</a>
-&nbsp;
-<a
-  class="btn btn-primary sharing-button--whatsapp"
-  href="https://wa.me/?text={{ page.title }}%20{{ site.url }}{{
-    site.baseurl
-  }}{{ page.url }}?utm_source=whatsapp&utm_medium=sharebuttons"
-  target="_blank"
-  rel="noopener"
-  role="button"
-  title="Condividi su WhatsApp"
->
-  <i class="fab fa-whatsapp"></i>
-</a>
-&nbsp;
-<a
-  class="btn btn-primary sharing-button--telegram"
-  href="https://telegram.me/share/url?text={{ page.title }}&amp;url={{
-    site.url
-  }}{{ site.baseurl }}{{ page.url }}?utm_source=telegram&utm_medium=sharebuttons"
-  target="_blank"
-  rel="noopener"
-  role="button"
-  title="Condividi su Telegram"
->
-  <i class="fab fa-telegram-plane"></i>
-</a>
+    <a
+      class="btn btn-primary sharing-button--twitter"
+      href="https://twitter.com/intent/tweet/?text={{ page.title }}%20%7C%20{{ site.title }}%20via%20%40{{ site.twitter.username }}&amp;url={{ site.url }}{{ site.baseurl }}{{ page.url }}?utm_source=twitter&utm_medium=sharebuttons"
+      target="_blank"
+      rel="noopener"
+      role="button"
+      title="Condividi su Twitter"
+    >
+      <i class="fab fa-twitter"></i>
+    </a>
+    &nbsp;
+    <a
+      class="btn btn-primary sharing-button--whatsapp"
+      href="https://wa.me/?text={{ page.title }}%20%7C%20{{ site.title }}%20{{ site.url }}{{ site.baseurl }}{{ page.url }}?utm_source=whatsapp&utm_medium=sharebuttons"
+      target="_blank"
+      rel="noopener"
+      role="button"
+      title="Condividi su WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    &nbsp;
+    <a
+      class="btn btn-primary sharing-button--telegram"
+      href="https://telegram.me/share/url?text={{ page.title }}%20%7C%20{{ site.title }}&amp;url={{ site.url }}{{ site.baseurl }}{{ page.url }}?utm_source=telegram&utm_medium=sharebuttons"
+      target="_blank"
+      rel="noopener"
+      role="button"
+      title="Condividi su Telegram"
+    >
+      <i class="fab fa-telegram-plane"></i>
+    </a>
+  </p>
+</div>

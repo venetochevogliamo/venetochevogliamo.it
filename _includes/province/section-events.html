@@ -1,0 +1,11 @@
+<h3 class="py-4">Incontri Provinciali</h3>
+<div class="row">
+    {% assign events = site.data.events | sort: "date" | reverse %} 
+    {% for e in events %}
+        {% if e.provincia == page.provincia %}
+            <div class="col-12 col-lg-6">
+            {% include event.html %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

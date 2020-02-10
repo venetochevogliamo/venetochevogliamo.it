@@ -1,19 +1,49 @@
+{% include js.html %}
 <!-- footer -->
+<div class="text-center">
+  <img src="/assets/img/vcv_silhouette.png" width="75%" />
+</div>
 <div class="footer">
-  <div class="container">
-    <div class="row py-5">
-      <div class="col-8">
-        {{ site.title }} -
+  <div class="container py-2">
+    <!-- <div class="row">
+     <div class="col-md-2">
+        <img src="/assets/img/vcv_silhouette.png" width="250px" />
+      </div>
+      <div class="col-md-4 offset-md-4 section-social">
+        <p class="text-right">
+          {% for profile in site.social %}
+          <a href="{{ profile.url }}" target="_blank"
+            ><i class="{{ profile.fa-icon }}"></i
+          ></a>
+          {% endfor %}
+        </p>
+      </div>
+    </div> -->
+    <div class="row p-5">
+      <div class="col">
+        <div class="section-social text-center mb-3">
+          {% for profile in site.social %}
+          <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer"
+            ><i class="{{ profile.fa-icon }}"></i
+          ></a>
+          {% endfor %}
+        </div>
+        <h2 class="text-center">{{ site.title }}</h2>
+        <h6 class="text-center">Elezioni Regionali 2020</h6>
+        <h5 class="text-center">
+          Movimento civico e popolare per cambiare il Veneto insieme
+        </h5>
+      </div>
+    </div>
+    <div class="row pb-2">
+      <div class="col">
         <a target="_blank" href="{{ site.privacy_policy_url }}"
           >Privacy Policy</a
         >
-      </div>
-      <div class="col" id="social">
-        <a
-          href="https://www.facebook.com/{{ site.facebook_url }}"
-          target="_blank"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
+        &nbsp;
+        <a href="mailto:ufficiostampa@venetochevogliamo.it">Ufficio Stampa</a> 
+        &nbsp;
+        <a href="/progetto-politico/">Progetto Politico</a>
       </div>
     </div>
   </div>

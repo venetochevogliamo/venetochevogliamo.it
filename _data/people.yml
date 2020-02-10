@@ -1,0 +1,334 @@
+- provincia: Belluno
+  membri:
+    - nome: Alessandra
+      cognome: Buzzo
+      ruolo: [Provinciale]
+      comune: Comelico Superiore
+    - nome: Alessandro
+      cognome: De Monte Pangon
+      ruolo: [Provinciale]
+      comune: Comelico Superiore
+    - nome: Roger
+      cognome: De Bernardin
+      ruolo: [Provinciale]
+      comune: Santo Stefano di Cadore
+    - nome: Monica
+      cognome: Camuffo
+      ruolo: [Provinciale]
+      comune: Ponte nelle Alpi
+    - nome: Edi
+      cognome: Meneguz
+      ruolo: [Provinciale]
+      comune: Feltre
+    - nome: Stefano
+      cognome: Talamini
+      ruolo: [Provinciale]
+      comune: Belluno
+    - nome: Massimo
+      cognome: De Toffol
+      ruolo: [Provinciale]
+      comune: Belluno
+    - nome: Francesco
+      cognome: Masut
+      ruolo: [Provinciale]
+      comune: Belluno
+    - nome: Alessia
+      cognome: Cerentin
+      ruolo: [Provinciale, Regionale]
+      comune: Borgo Valbelluna
+    - nome: Enrico
+      cognome: Lanciano
+      ruolo: [Provinciale]
+      comune: San Gregorio nelle Alpi
+    - nome: Elena
+      cognome: Vieceli
+      ruolo: [Provinciale]
+      comune: Santa Giustina
+    - nome: Nico
+      cognome: Paulon
+      ruolo: [Provinciale, Regionale]
+      comune: Sedico
+    - nome: Laura
+      cognome: Casagrande
+      ruolo: [Provinciale]
+      comune: Sedico
+- provincia: Venezia
+  membri:
+    - nome: Irene
+      cognome: Salieri
+      ruolo: [Provinciale]
+      comune: Mira
+    - nome: Lavinia
+      cognome: Vivian
+      ruolo: [Provinciale]
+      comune: Mira
+    - nome: Giovanni
+      cognome: Litt
+      ruolo: [Provinciale, Regionale]
+      comune: Spinea
+    - nome: Gabriele
+      cognome: Scaramuzza
+      ruolo: [Provinciale]
+      comune: Venezia
+    - nome: Stefano
+      cognome: Spivach
+      ruolo: [Provinciale]
+      comune: Teglio Veneto
+    - nome: Pier Paolo
+      cognome: Scelsi
+      ruolo: [Provinciale]
+      comune: Venezia
+    - nome: Margherita
+      cognome: Lachin
+      ruolo: [Provinciale, Regionale]
+      comune: Marcon
+    - nome: Vania
+      cognome: Trolese
+      ruolo: [Provinciale]
+      comune: Camponogara
+    - nome: Maurizio
+      cognome: Vezzà
+      ruolo: [Provinciale]
+      comune: Venezia
+    - nome: Sergio
+      cognome: Polesel
+      ruolo: [Provinciale]
+      comune: Camponogara
+    - nome: Renata
+      cognome: Mannise
+      ruolo: [Provinciale]
+      comune: Venezia
+- provincia: Vicenza
+  membri:
+    - nome: Giorgio
+      cognome: De Zen
+      ruolo: [Provinciale, Regionale, Portavoce]
+      comune: Schio
+    - nome: Elisa
+      cognome: Coltro
+      ruolo: [Provinciale]
+      comune: Noventa Vicentina
+    - nome: Mauro
+      cognome: Beraldin
+      ruolo: [Provinciale]
+      comune: Bassano del Grappa
+    - nome: Delizia
+      cognome: Catrini
+      ruolo: [Provinciale, Regionale]
+      comune: Bassano del Grappa
+    - nome: Pierangelo
+      cognome: Carretta
+      ruolo: [Provinciale]
+      comune: Bassano del Grappa
+    - nome: Valentina
+      cognome: Dovigo
+      ruolo: [Provinciale]
+      comune: Vicenza
+    - nome: Carlo
+      cognome: Fontana
+      ruolo: [Provinciale]
+      comune: Vicenza
+    - nome: Nora Haydee
+      cognome: Rodriguez
+      ruolo: [Provinciale]
+      comune: Vicenza
+    - nome: Stefano 
+      cognome: Poggi
+      ruolo: [Provinciale]
+      comune: Vicenza
+    - nome: Carlo
+      cognome: Cunegato
+      ruolo: [Provinciale]
+      comune: Schio
+- provincia: Verona
+  membri:
+    - nome: Riccardo
+      cognome: Anoardo
+      ruolo: [Provinciale]
+      comune: Fumane
+    - nome: Ulyana
+      cognome: Avola
+      ruolo: [Provinciale]
+      comune: Negrar
+    - nome: Lucio
+      cognome: Bertoldi
+      ruolo: [Provinciale]
+      comune: San Martino Buon Albergo
+    - nome: Francesca
+      cognome: Bragaja
+      ruolo: [Provinciale, Regionale]
+      comune: Verona
+    - nome: Graziano
+      cognome: Bronuzzi
+      ruolo: [Provinciale]
+      comune: Legnago
+    - nome: Francesco
+      cognome: Campagnari
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Alessandra
+      cognome: Corradi
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Michela
+      cognome: Faccioli
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Michele
+      cognome: Fiorillo
+      ruolo: [Provinciale, Regionale]
+      comune: Verona
+    - nome: Barbara
+      cognome: Gelmetti
+      ruolo: [Provinciale]
+      comune: Rivoli Veronese
+    - nome: Agnese
+      cognome: Meneghel
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Carlo
+      cognome: Piazza
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Patrick
+      cognome: Pinter
+      ruolo: [Provinciale]
+      comune: Verona
+    - nome: Alessandro
+      cognome: Saitta
+      ruolo: [Provinciale]
+      comune: Valeggio sul Mincio
+    - nome: Alessandra
+      cognome: Taddei
+      ruolo: [Provinciale]
+      comune: Sona
+- provincia: Rovigo
+  membri:
+    - nome: Claudio
+      cognome: Curina
+      ruolo: [Provinciale, Regionale]
+      comune: Rovigo
+    - nome: Sara
+      cognome: Mazzuccato
+      ruolo: [Provinciale, Regionale]
+      comune: Adria
+    - nome: Federico
+      cognome: Paralovo
+      ruolo: [Provinciale]
+      comune: Adria
+    - nome: Paolo
+      cognome: Giolo
+      ruolo: [Provinciale]
+      comune: Rovigo
+    - nome: Rossella
+      cognome: Moscatello
+      ruolo: [Provinciale]
+      comune: Rovigo
+    - nome: Dina
+      cognome: Maragno
+      ruolo: [Provinciale]
+      comune: Rovigo
+    - nome: Andrea
+      cognome: Micheletti
+      ruolo: [Provinciale]
+      comune: Adria
+    - nome: Leonardo
+      cognome: Bonato
+      ruolo: [Provinciale]
+      comune: Adria
+- provincia: Padova
+  membri:
+    - nome: Anna Milvia
+      cognome: Boselli
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Elena
+      cognome: Ostanel
+      ruolo: [Provinciale, Regionale, Portavoce]
+      comune: Padova
+    - nome: Marco
+      cognome: Carrai
+      ruolo: [Provinciale, Regionale]
+      comune: Padova
+    - nome: Leonardo
+      cognome: Villani
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Martina
+      cognome: Suppa
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Alessandro
+      cognome: Tognon
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Francesca
+      cognome: Gislon
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Francesco
+      cognome: Miazzi
+      ruolo: [Provinciale]
+      comune: Monselice
+    - nome: Pasqualina
+      cognome: Pagliarin
+      ruolo: [Provinciale]
+      comune: Ponte San Nicolò
+    - nome: Romualdo
+      cognome: Zoccali
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Sara
+      cognome: Scapin
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Sebastiano
+      cognome: Rizzardi
+      ruolo: [Provinciale]
+      comune: San Giorgio in Bosco
+    - nome: Vincenzo
+      cognome: Vozza
+      ruolo: [Provinciale]
+      comune: Padova
+    - nome: Gabriele
+      cognome: Cipri
+      ruolo: [Provinciale]
+      comune: Padova
+- provincia: Treviso
+  membri:
+    - nome: Mario
+      cognome: Bertolo
+      ruolo: [Provinciale]
+      comune: Castelfranco Veneto
+    - nome: Gigi
+      cognome: Calesso
+      ruolo: [Provinciale, Regionale]
+      comune: Treviso
+    - nome: Lisa
+      cognome: Coan
+      ruolo: [Provinciale]
+      comune: Oderzo
+    - nome: Adriana
+      cognome: Costantini
+      ruolo: [Provinciale]
+      comune: Vittorio Veneto
+    - nome: Deborah
+      cognome: Marcon
+      ruolo: [Provinciale, Regionale]
+      comune: Conegliano
+    - nome: Giacomo
+      cognome: Nilandi
+      ruolo: [Provinciale]
+      comune: Mogliano Veneto
+    - nome: Marco
+      cognome: Paoletti
+      ruolo: [Provinciale]
+      comune: Treviso
+    - nome: Laura
+      cognome: Tuveri
+      ruolo: [Provinciale]
+      comune: Treviso
+    - nome: Sossio
+      cognome: Vitale
+      ruolo: [Provinciale]
+      comune: Treviso

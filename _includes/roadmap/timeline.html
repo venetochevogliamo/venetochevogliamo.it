@@ -1,0 +1,50 @@
+<div class="roadmap">
+  <p id="top"><a href="#bottom">Vai all'ultimo evento</a></p>
+  <ul class="timeline">
+    {% assign events = site.data.events | sort: "date" %}
+    {% for e in events %}
+    <li>
+      {% if forloop.last == true %}
+      <div id="bottom"></div>
+      {% endif %}
+      <h4>
+        {{ e.name }}
+      </h4>
+      {% include date.html %}
+      <p>
+        {% comment %} upcoming event {% endcomment %}
+        {% assign timestamp = e.date | date: "%s" %}
+        {% assign now = "now" | date: "%s" %} 
+        {% if timestamp >= now %}
+          <span class="badge badge-pill badge-warning text-uppercase">Prossimamente</span>
+        {% endif %}
+        
+        {% if e.provincia %}
+          <span class="badge badge-pill badge-success text-uppercase">{{ e.provincia }}</span>
+        {% endif%}
+      </p>
+      <p>
+        {% if e.location %}
+          <i class="fas fa-map-marker-alt"></i> {{ e.location }} 
+        {% endif%} 
+        {% if e.live %}
+          <br />
+          <i class="far fa-play-circle"></i>
+          <a target="_blank" rel="noopener noreferrer" href="{{ e.live }}">Guarda la diretta</a>
+        {% endif %}
+      </p>
+      <p>
+        <a target="_blank" href="{{ e.fb }}" class="text-decoration-none" rel="noopener noreferrer">
+          <i class="fab fa-facebook"></i>
+        </a>
+        {% if e.indirizzo %}
+          <a target="_blank" href="https://www.google.com/maps/search/?api=1&query={{ e.indirizzo }}" class="text-decoration-none" rel="noopener noreferrer" >
+            <i class="fas fa-directions"></i>
+          </a>
+        {% endif %}
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% include scroll-up.html %}

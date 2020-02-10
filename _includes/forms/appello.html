@@ -1,5 +1,4 @@
-<!-- newsletter -->
-<div class="newsletter">
+<div class="section-form">
   <div class="container">
     <div class="row justify-content-md-center py-3">
       <div class="col col-md-6">
@@ -71,82 +70,110 @@
               >
               </select>
             </div>
-            <hr />
-            <i
-              >Su quale tema hai interesse, competenze o dati, per approfondirlo
-              nel nostro percorso? Massimo due risposte. (opzionale)</i
-            >
-            <small class="form-text">
-              Verranno creati dei gruppi di discussione (mailing list) dove
-              potrai contribuire sui temi selezionati.
-            </small>
-            <hr />
 
-            <div id="themes">
+            <div id="contribute-toggle">
               <input
                 type="checkbox"
-                class="styled-checkbox"
-                id="option1"
-                name="OPTION1"
-                value="true"
+                value="1"
+                name="group[23069][1]"
+                class="switch"
+                id="mce-group[23069]-23069-0"
+                onclick="changeContribute()"
               />
-              <label for="option1">Ambiente e tutela del territorio</label>
-
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option2"
-                name="OPTION2"
-                value="true"
-              />
-              <label for="option2">Trasporto Pubblico</label>
-
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option3"
-                name="OPTION3"
-                value="true"
-              />
-              <label for="option3">Sanità</label>
-
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option4"
-                name="OPTION4"
-                value="true"
-              />
-              <label for="option4">Patrimonio culturale</label>
-
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option5"
-                name="OPTION5"
-                value="true"
-              />
-              <label for="option5">Lavoro ed economia sostenibile</label>
-
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option6"
-                name="OPTION6"
-                value="true"
-              />
-              <label for="option6"
-                >Sociale - riduzione delle disuguaglianze</label
+              &nbsp;
+              <label for="mce-group[23069]-23069-0" class="switch"
+                ><h5>Vuoi contribuire?</h5></label
               >
+              <p>
+                <i
+                  >Su quale tema hai interesse, competenze o dati, per
+                  approfondirlo nel nostro percorso? Massimo due risposte.
+                  (opzionale)</i
+                >
+              </p>
+              <p>
+                <small class="form-text">
+                  Verranno creati dei gruppi di discussione (mailing list) dove
+                  potrai contribuire sui temi selezionati.
+                </small>
+              </p>
+            </div>
+            <div id="contribute">
+              <div id="themes">
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option1"
+                  name="OPTION1"
+                  value="true"
+                />
+                <label for="option1">Ambiente e tutela del territorio</label>
 
-              <input
-                type="checkbox"
-                class="styled-checkbox"
-                id="option7"
-                name="OPTION7"
-                value="true"
-              />
-              <label for="option7">Lotta alla criminalità organizzata</label>
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option2"
+                  name="OPTION2"
+                  value="true"
+                />
+                <label for="option2">Trasporto Pubblico</label>
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option3"
+                  name="OPTION3"
+                  value="true"
+                />
+                <label for="option3">Sanità</label>
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option4"
+                  name="OPTION4"
+                  value="true"
+                />
+                <label for="option4">Patrimonio culturale</label>
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option5"
+                  name="OPTION5"
+                  value="true"
+                />
+                <label for="option5">Lavoro ed economia sostenibile</label>
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option6"
+                  name="OPTION6"
+                  value="true"
+                />
+                <label for="option6"
+                  >Sociale - riduzione delle disuguaglianze</label
+                >
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option7"
+                  name="OPTION7"
+                  value="true"
+                />
+                <label for="option7">Lotta alla criminalità organizzata</label>
+
+                <input
+                  type="checkbox"
+                  class="styled-checkbox"
+                  id="option8"
+                  name="OPTION8"
+                  value="true"
+                />
+                <label for="option8">Scuola e formazione</label>
+              </div>
             </div>
             <hr />
             <i>Privacy</i>
@@ -199,18 +226,16 @@
               class="g-recaptcha"
               data-sitekey="6LenF8cUAAAAAF0oyZ_MmU9ev7AfnOGCqgZZkJgX"
             ></div>
-            <div class="clear">
-              <button
-                type="submit"
-                value="Sottoscrivo l'appello"
-                id="submit"
-                class="btn btn-primary btn-lg btn-block"
-                disabled
-              >
-                Sottoscrivo l'appello
-                <i class="fas fa-pencil-alt"></i>
-              </button>
-            </div>
+            <button
+              type="submit"
+              value="Sottoscrivo l'appello"
+              id="submit"
+              class="btn btn-primary btn-lg btn-block"
+              disabled
+            >
+              Sottoscrivo l'appello
+              <i class="fas fa-pencil-alt"></i>
+            </button>
           </div>
         </form>
         &nbsp;

@@ -120,7 +120,8 @@ const subscribeMC = async formData => {
         "624c3f9edf": formData.OPTION4 === "true" ? true : false,
         "9141ce6ea6": formData.OPTION5 === "true" ? true : false,
         "0c4892e8a6": formData.OPTION6 === "true" ? true : false,
-        b28830ad31: formData.OPTION7 === "true" ? true : false
+        b28830ad31: formData.OPTION7 === "true" ? true : false,
+        e5589e2bf4: formData.OPTION8 === "true" ? true : false
       },
       marketing_permissions: marketing
     };
