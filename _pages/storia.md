@@ -1,8 +1,10 @@
 ---
 layout: default
-permalink: /roadmap/
+permalink: /storia/
 sitemap: true
-title: "Roadmap"
+title: "Storia"
+redirect_from:
+  - /roadmap/
 ---
 {% include roadmap/timeline.html %}
 {% include share-buttons.html %}
