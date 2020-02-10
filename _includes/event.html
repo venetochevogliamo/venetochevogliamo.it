@@ -11,6 +11,9 @@
   {% if page.layout != "page-provincia" and e.provincia %}
     <span class="badge badge-pill badge-success text-uppercase">{{ e.provincia }}</span>
     <br />
+  {% else %}
+    <span class="badge badge-pill badge-success text-uppercase">Regionale</span>
+    <br />
   {% endif%}
   <small>{{ e.location }}</small>
 </p>
