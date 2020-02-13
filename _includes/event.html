@@ -18,9 +18,11 @@
   <small>{{ e.location }}</small>
 </p>
 <p>
+  {% if e.fb %}
   <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="{{ e.fb }}">
     <i class="fab fa-facebook"></i>
   </a>
+  {% endif %}
   &nbsp;
   {% if e.indirizzo %}
   <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query={{ e.indirizzo }}">
