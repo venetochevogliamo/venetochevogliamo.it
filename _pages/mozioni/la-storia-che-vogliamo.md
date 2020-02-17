@@ -5,6 +5,8 @@ category: mozione
 permalink: /mozioni/la-storia-che-vogliamo/
 layout: post
 image: /assets/img/IMG_3986.jpeg
+seo: 
+    type: BlogPosting
 ---
 
 Questa non è una mozione. È la storia che vogliamo e che stiamo scrivendo. A giugno dell’anno scorso è nata una idea, spinta da molte persone che chiedevano di “fare qualcosa” davanti a vent’anni di mal governo leghista e al rischio di restare immobili anche questa volta. Abbiamo organizzato quindi un percorso di ascolto nelle 7 province della Regione Veneto. Non sapevamo dove saremmo arrivati.

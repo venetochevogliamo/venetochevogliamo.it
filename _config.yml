@@ -30,7 +30,7 @@ navbar:
     url: /progetto-politico/
 
 # Social Network
-social:
+social_network:
   - name: Facebook
     url: https://www.facebook.com/venetochevogliamo/
     fa-icon: fab fa-facebook
@@ -51,9 +51,15 @@ social:
 twitter: 
   username: venetocvogliamo
   card: summary
-github_username:
-facebook_url: venetochevogliamo
 lang: it_IT
+
+social:
+  name: Il Veneto che vogliamo
+  links:
+    - https://twitter.com/venetocvogliamo
+    - https://www.facebook.com/venetochevogliamo
+    - https://t.me/ilvenetochevogliamo/
+    - https://www.instagram.com/ilvenetochevogliamo/
 
 defaults:
   - scope:
