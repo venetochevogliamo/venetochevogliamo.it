@@ -7,15 +7,17 @@
       <div class="row justify-content-md-center py-3">
         <div class="col col-md-8">
           {% include breadcrumbs.html %}
-          <h1 id="scroll">{{ page.title }}
-              {% if page.subtitle %}
-              <small class="text-muted">{{ page.subtitle }}</small>
-              {% endif %}
+          <h1>
+            {{ page.title }}
           </h1>
-          {{ content }}
-          {% if page.social-buttons != false %}
-            {% include share-buttons.html %}
-          {% endif %}
+          <p>
+            {% assign e.date = page.published_at %}
+            <em>{% include date.html date=page.published_at %}</em>
+          </p>
+          <div class="text-justify">
+            {{ content }}
+          </div>
+          {% include share-buttons.html %}
         </div>
       </div>
     </div>

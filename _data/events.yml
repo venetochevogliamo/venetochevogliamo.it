@@ -97,7 +97,8 @@
 - date: 2020-02-26 21:00
   name: Incontro ad Adriano Polesine
   provincia: Rovigo
-  location: Ariano Polesine
+  location: Sala Comunale - Ariano Polesine
+  indirizzo: Via Verdi - Adriano Polesine
 - date: 2020-02-08 11:00
   name: Aperitivo Informale
   provincia: Venezia
@@ -107,3 +108,8 @@
   provincia: Verona
   location: Sala Lodi - Verona
   indirizzo: Via San Giovanni in Valle, 13/b - Verona
+- date: 2020-03-04 20:30
+  name: Assemblea Provinciale
+  provincia: Vicenza
+  location: Centro Civico Villa Lattes - Vicenza
+  indirizzo: Via Paolo Thaon Di Revel, 44 - Vicenza

@@ -7,4 +7,3 @@ redirect_from:
   - /roadmap/
 ---
 {% include roadmap/timeline.html %}
-{% include share-buttons.html %}

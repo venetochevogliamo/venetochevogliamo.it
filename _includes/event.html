@@ -1,5 +1,5 @@
 <h5>{{ e.name }}</h5>
-<h6 class="card-subtitle mb-2">{% include date.html %}</h6>
+<h6 class="card-subtitle mb-2">{% include date.html date=e.date %}</h6>
 <p>
   {% comment %} upcoming event {% endcomment %}
   {% assign timestamp = e.date | date: "%s" %}
@@ -22,8 +22,8 @@
   <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="{{ e.fb }}">
     <i class="fab fa-facebook"></i>
   </a>
-  {% endif %}
   &nbsp;
+  {% endif %}
   {% if e.indirizzo %}
   <a target="_blank" class="text-decoration-none" rel="noopener noreferrer" href="https://www.google.com/maps/search/?api=1&query={{ e.indirizzo }}">
     <i class="fas fa-directions"></i>

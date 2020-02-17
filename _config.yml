@@ -20,12 +20,14 @@ url: "https://www.venetochevogliamo.it" # the base hostname & protocol for your 
 navbar:
   - title: "Che cos'è"
     url: /#about
-  - title: "Appello"
-    url: /progetto-politico/
   - title: "Province"
     url: /province/
+  - title: "Mozioni"
+    url: /mozioni/
   - title: "Calendario"
     url: /calendario/
+  - title: "Appello"
+    url: /progetto-politico/
 
 # Social Network
 social:

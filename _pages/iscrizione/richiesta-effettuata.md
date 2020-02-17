@@ -3,6 +3,7 @@ layout: default
 title: Richiesta Effettuata
 permalink: /iscrizione/richiesta-effettuata/
 sitemap: false
+social-buttons: false
 ---
 
 Grazie per il tuo interesse!

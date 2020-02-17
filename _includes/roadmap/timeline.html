@@ -10,7 +10,7 @@
       <h4>
         {{ e.name }}
       </h4>
-      {% include date.html %}
+      {% include date.html date=e.date %}
       <p>
         {% comment %} upcoming event {% endcomment %}
         {% assign timestamp = e.date | date: "%s" %}

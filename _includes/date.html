@@ -1,6 +1,6 @@
 {% comment %} get date and replace month (in Italian) {% endcomment %} 
 
-{{ e.date | date: "%d %b %Y" | 
+{{ include.date | date: "%d %b %Y" | 
 replace: "Jan", "Gennaio" | 
 replace: "Feb", "Febbraio" |
 replace: "Mar", "Marzo" | 
