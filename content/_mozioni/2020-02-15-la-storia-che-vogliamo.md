@@ -1,8 +1,6 @@
 ---
 title: La storia che vogliamo
-published_at: 2020-02-15
-category: mozione
-permalink: /mozioni/la-storia-che-vogliamo/
+date: 2020-02-15
 layout: post
 image: /assets/img/IMG_3986.jpeg
 seo: 

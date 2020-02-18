@@ -17,6 +17,21 @@ title: Il Veneto che vogliamo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.venetochevogliamo.it" # the base hostname & protocol for your site, e.g. http://example.com
 
+# Collections
+collections_dir: content
+collections:
+  mozioni:
+    output: true
+    permalink: /mozioni/:title/
+    sort_by: date
+  # eventi:
+  #   sort_by: date
+
+# Feed RSS
+feed:
+  collections:
+    - mozioni
+
 navbar:
   - title: "Che cos'è"
     url: /#about
@@ -77,9 +92,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
-
-include:
-  - _pages
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
