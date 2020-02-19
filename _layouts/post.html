@@ -11,8 +11,7 @@
             {{ page.title }}
           </h1>
           <p>
-            {% assign e.date = page.published_at %}
-            <em>{% include date.html date=page.published_at %}</em>
+            <em>{% include date.html date=page.date %}</em>
           </p>
           <div class="text-justify">
             {{ content }}
