@@ -1,0 +1,32 @@
+province:
+    - name: Belluno
+      url: /province/belluno/
+    - name: Padova
+      url: /province/padova/
+    - name: Rovigo
+      url: /province/rovigo/
+    - name: Treviso
+      url: /province/treviso/
+    - name: Venezia
+      url: /province/venezia/
+    - name: Verona
+      url: /province/verona/
+    - name: Vicenza
+      url: /province/vicenza/
+
+footer:
+  movimento:
+    - name: Appello
+      url: /progetto-politico/
+    - name: Mozioni
+      url: /mozioni/
+    - name: Calendario
+      url: /calendario/
+    - name: Privacy Policy 
+      url: https://www.iubenda.com/privacy-policy/40606125
+      blank: true
+  ufficio-stampa:
+    - name: Comunicati Stampa
+      url: /comunicati-stampa/
+    - name: Contatti
+      url: mailto:ufficiostampa@venetochevogliamo.it

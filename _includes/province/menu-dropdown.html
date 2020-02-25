@@ -3,16 +3,12 @@
 <select
   class="form-control"
   id="menu-province"
-  onchange="javascript:location.href = '/province/' + this.value + '/';"
+  onchange="javascript:location.href = this.value;"
 >
   <option value="" selected disabled>Provincia</option>
-  <option value="belluno">Belluno</option>
-  <option value="padova">Padova</option>
-  <option value="rovigo">Rovigo</option>
-  <option value="treviso">Treviso</option>
-  <option value="venezia">Venezia</option>
-  <option value="verona">Verona</option>
-  <option value="vicenza">Vicenza</option>
+  {% for p in site.data.links.province %}
+  <option value="{{ p.url }}">{{ p.name }}</option>
+  {% endfor %}
 </select>
 
 </div>

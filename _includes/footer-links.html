@@ -1,0 +1,11 @@
+<ul class="list-unstyled">
+    {% for i in include.list %}
+    <li>
+        <a href="{{ i.url }}" class="text-decoration-none"
+            {% if i.blank == true %}target="_blank" rel="noopener noreferrer"{% endif %}
+        >
+            {{ i.name }}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

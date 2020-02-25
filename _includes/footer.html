@@ -29,22 +29,35 @@
           {% endfor %}
         </div>
         <h2 class="text-center">{{ site.title }}</h2>
-        <h6 class="text-center">Elezioni Regionali 2020</h6>
+        <h6 class="text-center">Elezioni Regionali 2020 - Lorenzoni Presidente</h6>
         <h5 class="text-center">
           Movimento civico e popolare per cambiare il Veneto insieme
         </h5>
       </div>
     </div>
     <div class="row pb-2">
-      <div class="col">
-        <a target="_blank" href="{{ site.privacy_policy_url }}"
+  
+        <div class="col-sm">
+          <h5>Movimento</h5>
+          {% include footer-links.html list=site.data.links.footer.movimento %}
+        </div>
+        <div class="col-sm">
+          <h5>Ufficio Stampa</h5>
+          {% include footer-links.html list=site.data.links.footer.ufficio-stampa %}
+        </div>
+        <div class="col-sm">
+          <h5>Province</h5>
+          {% include footer-links.html list=site.data.links.province %}
+        </div>
+  
+        <!-- <a target="_blank" href="{{ site.privacy_policy_url }}"
           >Privacy Policy</a
         >
         &nbsp;
         <a href="mailto:ufficiostampa@venetochevogliamo.it">Ufficio Stampa</a> 
         &nbsp;
-        <a href="/progetto-politico/">Progetto Politico</a>
-      </div>
+        <a href="/progetto-politico/">Progetto Politico</a> -->
+
     </div>
   </div>
 </div>

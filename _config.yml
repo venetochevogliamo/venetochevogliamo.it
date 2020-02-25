@@ -24,6 +24,10 @@ collections:
     output: true
     permalink: /mozioni/:title/
     sort_by: date
+  comunicati-stampa:
+    output: true
+    permalink: /comunicati-stampa/:title/
+    sort_by: date
   # eventi:
   #   sort_by: date
 
@@ -31,6 +35,7 @@ collections:
 feed:
   collections:
     - mozioni
+    - comunicati-stampa
 
 navbar:
   - title: "Che cos'è"
@@ -84,6 +89,11 @@ defaults:
   - scope:
       path: ""
       type: "mozioni"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "comunicati-stampa"
     values:
       layout: "post"
 
