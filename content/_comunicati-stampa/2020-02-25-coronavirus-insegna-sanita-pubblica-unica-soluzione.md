@@ -1,0 +1,14 @@
+---
+title: "Sanità, Veneto che vogliamo: coronavirus insegna, sanità pubblica unica soluzione."
+date: 2020-02-25
+---
+
+_L’emergenza coronavirus ci indica una strada importante: **più sostegno alla sanità pubblica che, nei momenti di crisi come questo, è la sola a rispondere**._ È questa la tesi di **Elena Ostanel**, portavoce de Il Veneto che vogliamo, il movimento civico e popolare nato ormai un anno fa che raduna le liste civiche di tutto il Veneto.
+
+Ostanel continua: _**Dobbiamo tutti ringraziare chi in questi giorni sta lavorando in trincea**, facendo doppi e tripli turni nelle strutture sanitarie di tutto il Veneto: medici, infermieri e infermiere, oss, ricercatori e ricercatrici che lavorano in sotto organico negli ospedali del Veneto, soprattutto nelle aree periferiche._
+
+_È ora di invertire la rotta rispetto alle politiche del presidente Zaia e della sua giunta: **serve un piano speciale di sostegno al servizio pubblico** per rispondere ad alcune criticità importanti. Mancano medici, in particolare nelle aree montane e interne: si stima un sotto organico di 1500 unità. Servono ospedali di comunità, che sappiano garantire servizi specialistici anche a chi vive lontano dagli ospedali di riferimento e un’assistenza domiciliare più capillare ed efficace: erano stati promessi, ma non sono mai stati realizzati._
+
+_Il modello è quello delle Case della Salute in Emilia Romagna - propone Ostanel - strutture che garantiscono un **servizio di territorio capillare avvicinando i servizi sanitari specialistici ai cittadini e non viceversa**. Non è possibile che vivere in montagna significhi rischiare di non arrivare in tempo ad un'ospedale di riferimento_
+
+Interviene anche il secondo portavoce de Il Veneto che vogliamo, **Giorgio De Zen**, attivo per la tutela della sanità pubblica nell’Alto Vicentino: _Zaia risponde che non è in corso una privatizzazione della sanità in Veneto? Che lo chieda alle donne che pur avendo un’impegnativa con urgenza a dieci giorni non trovano posto per fare un’ecografia e devono andare a pagamento. Sappiamo bene che il meccanismo del “galleggiamento” serve a mascherare la realtà ben più drammatica della lunghezza delle liste d’attesa. Chi si sente dire “la richiameremo” finisce in questo limbo chiamato, appunto, galleggiamento. **Dobbiamo ridurre drasticamente le liste d’attesa nel pubblico**_ - chiude De Zen - _e noi abbiamo un piano per farlo: **aumentare l’offerta**, in particolare territoriale, con più personale assunto per affrontare le criticità. **Investire in sanità pubblica è l’unico modo per ridurre le disuguaglianze** e far sì che le persone si sentano parte di una comunità, non possiamo lasciare nessuno solo in attesa di una visita urgente_.
