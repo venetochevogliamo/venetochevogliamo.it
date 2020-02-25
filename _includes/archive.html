@@ -1,0 +1,18 @@
+{% assign items = site[page.collection] | reverse %}
+{% assign now = "now" | date: "%s" %}
+
+{% for item in items %}
+{% assign itemDate = item.date | date: '%s' %}
+{% if itemDate <= now %}
+<div class="row pt-3">
+<div class="col">
+<h5>{{ item.title }}</h5>
+<small>{{ item.date | date: "%d/%m/%Y" }}</small>
+<p>
+{{ item.excerpt | strip_html | strip_newlines | truncate: 100 }}
+</p>
+<a href="{{ item.url }}" class="btn btn-primary">Leggi di pi&ugrave;</a>
+</div>
+</div>
+{% endif %}
+{% endfor %}

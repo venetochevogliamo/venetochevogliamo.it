@@ -225,6 +225,10 @@ $grid-breakpoints: (
   h6 {
     color: $white;
   }
+  h4{
+    color: $white;
+    border-bottom: 2px solid $white;
+  }
   a {
     color: $white;
     text-decoration: underline;
