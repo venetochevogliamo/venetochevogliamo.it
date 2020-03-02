@@ -112,9 +112,32 @@ $breadcrumb-bg: transparent;
 
 // Variables ===================================================================
 
-$web-font-path: "https://fonts.googleapis.com/css?family=Nunito+Sans:400,600";
-//$web-font-path: "./font/Nunito_Sans/NunitoSans-Regular.ttf";
-@import url($web-font-path);
+/* nunito-sans-regular - vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/nunito-sans-v5-vietnamese-regular.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Sans Regular'), local('NunitoSans-Regular'),
+       url('./fonts/nunito-sans-v5-vietnamese-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/nunito-sans-v5-vietnamese-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/nunito-sans-v5-vietnamese-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/nunito-sans-v5-vietnamese-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/nunito-sans-v5-vietnamese-regular.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
+/* nunito-sans-600 - vietnamese */
+@font-face {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/nunito-sans-v5-vietnamese-600.eot'); /* IE9 Compat Modes */
+  src: local('Nunito Sans SemiBold'), local('NunitoSans-SemiBold'),
+       url('./fonts/nunito-sans-v5-vietnamese-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/nunito-sans-v5-vietnamese-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/nunito-sans-v5-vietnamese-600.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/nunito-sans-v5-vietnamese-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/nunito-sans-v5-vietnamese-600.svg#NunitoSans') format('svg'); /* Legacy iOS */
+}
 
 $grid-breakpoints: (
   xs: 0,
