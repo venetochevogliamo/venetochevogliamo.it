@@ -5,14 +5,16 @@
 {% assign itemDate = item.date | date: '%s' %}
 {% if itemDate <= now %}
 <div class="row pt-3">
-<div class="col">
-<h5>{{ item.title }}</h5>
-<small>{{ item.date | date: "%d/%m/%Y" }}</small>
-<p>
+    <div class="col">
+        {{ item.date | date: "%d/%m/%Y" }} &dash;
+        <a href="{{ item.url }}" class="font-weight-bolder">
+            {{ item.title }}
+        </a>
+        <!-- <p>
 {{ item.excerpt | strip_html | strip_newlines | truncate: 100 }}
 </p>
-<a href="{{ item.url }}" class="btn btn-primary">Leggi di pi&ugrave;</a>
-</div>
+<a href="{{ item.url }}" class="btn btn-primary">Leggi di pi&ugrave;</a> -->
+    </div>
 </div>
 {% endif %}
 {% endfor %}
