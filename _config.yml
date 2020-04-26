@@ -42,8 +42,8 @@ navbar:
     url: /#about
   - title: "Province"
     url: /province/
-  - title: "Mozioni"
-    url: /mozioni/
+  # - title: "Comunicati"
+  #   url: /comunicati-stampa/
   - title: "Calendario"
     url: /calendario/
   - title: "Appello"

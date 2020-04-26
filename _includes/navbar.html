@@ -1,24 +1,24 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="d-block d-lg-none" href="/live/" onclick="ga('send', 'event', 'link', 'click', 'In Piazza', 1)">
+    <img src="/assets/img/inpiazza.webp" width="50" />
+  </a>
   <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
-  <a
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
+  <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       {% for item in site.navbar %}
       <li class="nav-item">
-        <a class="nav-link" href="{{ site.url }}{{ item.url }}"
-          >{{ item.title }}</a>
+        <a class="nav-link" href="{{ site.url }}{{ item.url }}">{{ item.title }}</a>
       </li>
       {% endfor %}
     </ul>
+    <div class="d-none d-lg-inline-block my-2 my-lg-0">
+      <a href="/live/" onclick="ga('send', 'event', 'link', 'click', 'In Piazza', 1)">
+        <img src="/assets/img/inpiazza.webp" width="75" />
+      </a>
+    </div>
   </div>
 </nav>
