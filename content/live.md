@@ -6,7 +6,7 @@ title: "In Piazza"
 youtube-video: yM8miewWslU
 ---
 
-<div style="background: url(/assets/img/inpiazza.webp);
+<div style="background: url(/assets/img/inpiazza.jpg);
             height: 200px;
             background-size: 200px;
             background-repeat: no-repeat;
