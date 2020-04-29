@@ -1,7 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  {% if site.live %}
   <a class="d-block d-lg-none" href="/live/" onclick="ga('send', 'event', 'link', 'click', 'In Piazza', 1)">
     <img src="/assets/img/live-button.jpg" width="50" />
   </a>
+  {% endif %}
   <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
   <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +17,12 @@
       </li>
       {% endfor %}
     </ul>
+    {% if site.live %}
     <div class="d-none d-lg-inline-block my-2 my-lg-0">
       <a href="/live/" onclick="ga('send', 'event', 'link', 'click', 'In Piazza', 1)">
         <img src="/assets/img/live-button.jpg" width="75" />
       </a>
     </div>
+    {% endif %}
   </div>
 </nav>
