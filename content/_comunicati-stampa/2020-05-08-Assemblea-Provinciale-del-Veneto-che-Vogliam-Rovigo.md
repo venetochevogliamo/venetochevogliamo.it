@@ -15,19 +15,18 @@ Vogliamo riconnettere le persone e le esperienze che hanno saputo individuare bu
 Per farlo, è necessario costruire un progetto politico ampio, alternativo e concreto, che metta al centro contenuti e temi di una regione più equa, pulita e innovativa".
 
 
-LEONARDO BONATO   _Adria_
+LEONARDO BONATO       _Adria_
 
-CLAUDIO CURINA
-_Rovigo_
-PAOLO GIOLO
-_Rovigo_
-DINA MARAGNO
-_Rovigo_
-SARA MAZZUCATO
-_Adria_
-ANDREA MICHELETTI
-_Adria_
-ROSSELLA MOSCATELLO
-_Rovigo_
-FEDERICO PARALOVO
-_Adria_
+CLAUDIO CURINA        _Rovigo_
+
+PAOLO GIOLO           _Rovigo_
+
+DINA MARAGNO          _Rovigo_
+
+SARA MAZZUCATO        _Adria_
+
+ANDREA MICHELETTI     _Adria_
+
+ROSSELLA MOSCATELLO   _Rovigo_
+
+FEDERICO PARALOVO     _Adria_
