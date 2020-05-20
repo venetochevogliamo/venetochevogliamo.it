@@ -18,6 +18,7 @@ Per farlo, è necessario costruire un progetto politico ampio, alternativo e con
 LEONARDO BONATO
 
 _Adria_
+
 CLAUDIO CURINA
 _Rovigo_
 PAOLO GIOLO
