@@ -1,5 +1,5 @@
 ---  
-title:  "Veneto che vogliamo, variazione di bilancio: 10 proposte concrete perché nessuno rimanga indietro."
+title:  Variazione di bilancio: 10 proposte concrete perché nessuno rimanga indietro
 
 date: 2020-05-15
 
