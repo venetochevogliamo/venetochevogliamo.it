@@ -15,9 +15,7 @@ Vogliamo riconnettere le persone e le esperienze che hanno saputo individuare bu
 Per farlo, è necessario costruire un progetto politico ampio, alternativo e concreto, che metta al centro contenuti e temi di una regione più equa, pulita e innovativa".
 
 
-LEONARDO BONATO
-
-_Adria_
+LEONARDO BONATO   _Adria_
 
 CLAUDIO CURINA
 _Rovigo_
