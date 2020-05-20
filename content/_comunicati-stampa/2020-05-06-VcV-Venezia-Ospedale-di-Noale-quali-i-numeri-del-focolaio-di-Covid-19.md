@@ -1,5 +1,5 @@
 ---  
-title: VcV Venezia, Ospedale di Noale: quali i numeri del focolaio di Covid-19
+title: "VcV Venezia, Ospedale di Noale: quali i numeri del focolaio di Covid-19"
 date: 2020-05-06
 
 ---
