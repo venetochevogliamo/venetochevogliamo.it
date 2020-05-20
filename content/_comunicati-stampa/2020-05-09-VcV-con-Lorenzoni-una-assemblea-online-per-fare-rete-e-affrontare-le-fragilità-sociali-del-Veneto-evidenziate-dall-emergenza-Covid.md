@@ -16,31 +16,30 @@ Sarà anche l'occasione di conoscere i componenti del coordinamento provinciale 
 La fase di emergenza che stiamo vivendo ci mette di fronte alla necessità di immaginare nuove forme e strumenti per rialzarci e con le quali provare a migliorare il futuro dei nostri territori. Queste sfide si uniscono con quelle del passato rivolte all'attenzione delle fragilità sociali, ambientali ed economiche. Anche per questo durante l'assemblea dedicheremo uno spazio agli spunti e alle riflessioni, per confrontarci e continuare ad immaginare insieme Il Veneto che vogliamo.
 
 **Il coordinamento provinciale di Padova**:  
-Elena Ostanel  
-_Padova_
-Marco Carrai  
-_Padova_
-Anna Milvia Boselli  
-_Padova_
-Gabriele Cipri  
-_Padova_
-Francesca Gislon  
-_Padova_
-Francesco Miazzi  
-_Monselice_
-Pasqualina Pagliarin  
-_Ponte San Nicolò_
-Sebastiano Rizzardi  
-_San Giorgio in Bosco_
-Sara Scapin  
-_Vigodarzere_
-Martina Suppa  
-_Padova_
-Alessandro Tognon  
-_Padova_
-Leonardo Villani  
-_Padova_
-Vincenzo Vozza  
-_Padova_
-Romualdo Zoccali  
-_Padova_
+Elena Ostanel     _Padova_
+
+Marco Carrai      _Padova_
+
+Anna Milvia Boselli  _Padova_
+
+Gabriele Cipri       _Padova_
+
+Francesca Gislon     _Padova_
+
+Francesco Miazzi     _Monselice_
+
+Pasqualina Pagliarin  _Ponte San Nicolò_
+
+Sebastiano Rizzardi  _San Giorgio in Bosco_
+
+Sara Scapin          _Vigodarzere_
+
+Martina Suppa        _Padova_
+
+Alessandro Tognon    _Padova_
+
+Leonardo Villani     _Padova_
+
+Vincenzo Vozza       _Padova_
+
+Romualdo Zoccali     _Padova_
