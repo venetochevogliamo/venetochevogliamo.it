@@ -1,5 +1,5 @@
 ---  
-title: Blocco immediato delle chiusure di reparti ospedalieri e revisione del piano sanitario.
+title: Blocco immediato delle chiusure di reparti ospedalieri e revisione del piano sanitario
  
 date: 2020-05-21
 
