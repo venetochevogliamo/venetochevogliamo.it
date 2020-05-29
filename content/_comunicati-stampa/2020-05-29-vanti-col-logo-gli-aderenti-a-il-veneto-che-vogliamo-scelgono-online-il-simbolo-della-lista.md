@@ -15,4 +15,4 @@ Potranno partecipare alla scelta tutte e tutti coloro che hanno firmato l'appell
 
 In questi mesi difficili, il movimento civico e popolare Il Veneto che vogliamo è riuscito comunque a mantenere l'elemento distintivo della partecipazione, attraverso webinar e assemblee online.  In questi mesi è continuato nel movimento il lavoro delle donne e degli uomini, delle ragazze e dei ragazzi interessati a condividere la loro visione dei problemi della nostra regione e le proposte per affrontarli e per costruire un futuro migliore per i nostri territori. La stessa definizione del programma, a cui stanno lavorando gruppi di lavoro numerosi e partecipati, è vicina alla conclusione.
 
-Intanto è il momento di metterci la faccia, di superare un momento difficile per tutti e ripartire: Vanti colo logo, che l'elesion se 'ngruma , come dice simpaticamente il titolo che si è dato alla votazione. Per partecipare: www.venetochevogliamo.it
+Intanto è il momento di metterci la faccia, di superare un momento difficile per tutti e ripartire: Vanti colo logo, che l'elesion se 'ngruma , come dice simpaticamente il titolo che si è dato alla votazione. 
