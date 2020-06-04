@@ -1,5 +1,5 @@
 ---  
-title: Venerdì 8 giugno si potrà votare il logo della lista online.
+title: Venerdì 5 giugno si potrà votare il logo della lista online.
 
 date: 2020-06-04
 
