@@ -1,5 +1,5 @@
 ---  
-title: Giornata Mondiale dell’ambiente
+title: Giornata Mondiale dell’ambiente 
 
 date: 2020-06-05
 
