@@ -7,7 +7,7 @@ date: 2020-06-06
 
   
   
-Che cos’è Il Veneto che vogliamo?
+**Che cos’è Il Veneto che vogliamo?**
 
   
 
@@ -20,7 +20,7 @@ Che cos’è Il Veneto che vogliamo?
   
 Il Veneto che vogliamo ha promosso e sostiene la candidatura di Arturo Lorenzoni presidente della Regione per un Veneto all’altezza della laboriosità, della capacità di innovazione, del patrimonio di solidarietà dei suoi abitanti.  
   
-1. Il benessere delle persone: opportunità, certezze, serenità.  
+ **Il benessere delle persone: opportunità, certezze, serenità**
   
 L"emergenza Covid sta facendo perdere lavoro e opportunità di sviluppo sociale a molte persone e la precarietà del lavoro mette a rischio anche la certezza di un luogo stabile e sicuro in cui vivere. In Veneto ancora troppe persone sono in attesa di un'abitazione dignitosa o rischiano ora di perdere quella in cui vivono. Non dobbiamo lasciare indietro nessuno. Ma per noi la persona non è solo casa e lavoro. C’è una dimensione personale che spesso non viene considerata: è il benessere individuale, che è tanto importante quanto quello della comunità tutta. Per raggiungere questo benessere è necessario che la Regione attivi iniziative e risorse, in particolare per il rafforzamento del sistema scolastico, per l’estensione del servizio degli asili-nido, per le politiche giovanili e delle pari opportunità, per un lavoro dignitoso e adeguatamente retribuito.  
   
@@ -28,7 +28,7 @@ Perché siamo consapevoli che le diseguaglianze sociali sono un carico difficile
   
   
   
-2. Il benessere della comunità: la salute e l’ambiente.  
+**Il benessere della comunità: la salute e l’ambiente**
   
 La priorità è la difesa della sanità pubblica che rappresenta il ponte tra la persona e la comunità. Mai come con il Covid l’abbiamo visto: un contagiato voleva dire una comunità intera a rischio e la sanità pubblica si è dimostrata l’argine contro l’epidemia. Ma questo si può vedere anche nella quotidianità: la sofferenza del singolo apre la porta al disagio collettivo.  
   
@@ -36,7 +36,7 @@ Ogni giorno di più ci rendiamo conto che le condizioni dell’ambiente in cui v
   
   
   
-3. Il benessere del territorio: il grande mondo antico veneto.  
+**Il benessere del territorio: il grande mondo antico veneto**
   
 Il reticolo di città e paesi del Veneto è il sistema su cui si poggia tutto. E’ necessario che la politica rispetti e valorizzi l’impegno di tutte le comunità a livello sociale, economico, culturale senza la pretesa di una “omologazione a livello regionale” che assomiglia tanto a un nuovo centralismo non molto diverso dal tanto criticato centralismo romano.  
   
