@@ -6,7 +6,7 @@ date: 2020-06-08
 
  
 Sta tenendo banco in questi giorni la polemica sulla “bocciatura” da parte del governo della legge regionale del Veneto per l’istituzione di una facoltà di Medicina a Treviso.
-Siamo favorevoli all’istituzione della nuova facoltà in città anche riteniamo necessario, in premessa, sottolineare due aspetti.
+Siamo favorevoli all’istituzione della nuova facoltà in città e riteniamo necessario, in premessa, sottolineare due aspetti.
  
 
 Il problema della carenza di medici nel Sistema Sanitario Nazionale non è legato ad una presunta insufficienza di posti nelle facoltà di Medicina ma alla carenza di fondi da destinare alle borse di specializzazione, quelle sì ampiamente insufficienti, tanto da “tagliare fuori” ogni anno migliaia di neolaureati dalla possibilità di specializzarsi.
