@@ -232,6 +232,14 @@
       cognome: Bonato
       ruolo: [Provinciale]
       comune: Adria
+    - nome: Laura
+      cognome: Bassi
+      ruolo: [Provinciale]
+      comune: Polesella
+    - nome: Gualtiero
+      cognome: Bellucco
+      ruolo: [Provinciale]
+      comune: Lendinara
 - provincia: Padova
   membri:
     - nome: Anna Milvia
