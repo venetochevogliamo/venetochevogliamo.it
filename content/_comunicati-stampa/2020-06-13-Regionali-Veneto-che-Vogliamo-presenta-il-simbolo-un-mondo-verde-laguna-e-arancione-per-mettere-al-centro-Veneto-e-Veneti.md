@@ -1,6 +1,6 @@
 ---  
 title: "Regionali, Veneto che vogliamo presenta il simbolo: un mondo verde laguna e arancione per mettere al centro Veneto e veneti”
-date: 2020-06-08
+date: 2020-06-13
 
 ---
 ```
