@@ -4,6 +4,7 @@ date: 2020-06-13
 
 ---
 
+![Il Simbolo del Veneto che Vogliamo](https://scontent.fqpa1-1.fna.fbcdn.net/v/t1.0-9/83006532_954932338298693_7975142816195793847_o.jpg?_nc_cat=102&_nc_sid=09cbfe&_nc_oc=AQnI-eQvrartVQJofv9krGuR2MUahE_BsuM9Yq_dfdvyHCDzOBs_-dZ6it6brwchFd4&_nc_ht=scontent.fqpa1-1.fna&oh=a0075d5a99cc04ad7288ab79319ad2d0&oe=5F0998F2)
 Oggi, all’ombra della Specola di Padova, il movimento civico e popolare “Il Veneto che vogliamo” (VcV), ha presentato il logo con cui si presenterà alle elezioni, alla presenza dei due portavoce Elena Ostanel e Giorgio De Zen e del candidato presidente Arturo Lorenzoni.
 
   
