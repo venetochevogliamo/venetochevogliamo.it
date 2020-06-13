@@ -1,10 +1,8 @@
 ---  
-title: "Regionali, Veneto che vogliamo presenta il simbolo: un mondo verde laguna e arancione per mettere al centro Veneto e veneti”
+title: "Regionali, Veneto che Vogliamo: Veneto che vogliamo presenta il simbolo: un mondo verde laguna e arancione per mettere al centro Veneto e Veneti"
 date: 2020-06-13
 
 ---
-
-  
 
 Oggi, all’ombra della Specola di Padova, il movimento civico e popolare “Il Veneto che vogliamo” (VcV), ha presentato il logo con cui si presenterà alle elezioni, alla presenza dei due portavoce Elena Ostanel e Giorgio De Zen e del candidato presidente Arturo Lorenzoni.
 
