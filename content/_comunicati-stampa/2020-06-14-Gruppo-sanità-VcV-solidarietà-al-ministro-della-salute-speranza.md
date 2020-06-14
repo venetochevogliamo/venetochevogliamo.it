@@ -1,5 +1,5 @@
 ---  
-title: Gruppo sanità del Veneto che Vogliamo: solidarietà al Ministro della Salute Speranza
+title: "Gruppo sanità del Veneto che Vogliamo: solidarietà al Ministro della Salute Speranza"
 date: 2020-06-14
 
 ---
