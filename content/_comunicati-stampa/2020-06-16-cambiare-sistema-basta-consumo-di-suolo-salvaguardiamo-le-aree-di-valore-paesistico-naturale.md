@@ -1,5 +1,5 @@
 ---  
-title: Cambiare sistema: basta consumo di suolo, salvaguardiamo le aree di valore paesistico-naturale
+title: "Cambiare sistema: basta consumo di suolo, salvaguardiamo le aree di valore paesistico-naturale"
 date: 2020-06-16
 
 ---
