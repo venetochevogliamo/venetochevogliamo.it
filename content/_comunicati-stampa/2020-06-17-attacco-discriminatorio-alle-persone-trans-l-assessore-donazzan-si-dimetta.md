@@ -1,6 +1,6 @@
-
 ---  
 title: "Attacco discriminatorio alle persone trans: l’assessore Donazzan si dimetta"
+
 date: 2020-06-17
 
 ---
