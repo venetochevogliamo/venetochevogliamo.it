@@ -20,4 +20,4 @@ Poi c’è l’ambientalismo, le lotte contro i Pfas. Tutto ciò non può che di
 
 Noi pensiamo che nella vita bisogna avere il coraggio delle proprie idee. C’è chi sta con questa destra retriva, con chi definisce le persone transessuali l’incarnazione del demonio. Una destra di nazionalisti capace di stare per decenni alleata con degli indipendentisti, uniti solo dal pregiudizio e dalla discriminazione nei confronti di ogni diversità. Poi c’è chi sta zitto. Chi non si espone, perché così non si scontenta nessuno, perché se non esprimi una posizione chiara non ti fai dei nemici, sei un po’ con tutti e per tutti. Noi del Veneto che Vogliamo, invece, stiamo con il Bocciodromo e difendiamo il suo diritto all’esistenza. Perché questo luogo di vita rende più effervescente, dinamica, informata la nostra città e la nostra provincia.
 
-_Il Coordinamento Provinciale di Vicenza de Veneto che Vogliamo_
+
