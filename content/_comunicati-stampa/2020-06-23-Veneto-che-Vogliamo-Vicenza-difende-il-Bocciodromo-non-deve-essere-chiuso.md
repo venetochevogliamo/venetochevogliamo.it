@@ -1,6 +1,6 @@
-
 ---  
-title: "Veneto che Vogliamo Vicenza difende il Bocciodromo: non deve essere chiuso"
+
+title: "VcV Vicenza difende il Bocciodromo: non deve essere chiuso"
 
 date: 2020-06-23
 
