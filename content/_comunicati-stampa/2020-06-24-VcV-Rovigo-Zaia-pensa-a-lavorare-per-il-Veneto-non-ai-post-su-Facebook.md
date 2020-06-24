@@ -1,7 +1,5 @@
-
 ---  
 title: "VcV Rovigo, Zaia: pensa a lavorare per il Veneto, non ai post su Facebook"
-
 date: 2020-06-24
 
 ---
