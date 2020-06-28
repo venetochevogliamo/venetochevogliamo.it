@@ -20,14 +20,6 @@
       cognome: Meneguz
       ruolo: [Provinciale]
       comune: Feltre
-    - nome: Stefano
-      cognome: Talamini
-      ruolo: [Provinciale]
-      comune: Belluno
-    - nome: Massimo
-      cognome: De Toffol
-      ruolo: [Provinciale]
-      comune: Belluno
     - nome: Francesco
       cognome: Masut
       ruolo: [Provinciale]
@@ -120,6 +112,14 @@
       cognome: Carretta
       ruolo: [Provinciale]
       comune: Montecchio Maggiore
+    - nome: Vittoria
+      cognome: Gheno
+      ruolo: [Provinciale]
+      comune: Bassano del Grappa
+    - nome: Roberto
+      cognome: Rigoni
+      ruolo: [Provinciale]
+      comune: Lusiana Conco
     - nome: Valentina
       cognome: Dovigo
       ruolo: [Provinciale]
@@ -208,6 +208,10 @@
       cognome: Mazzucato
       ruolo: [Provinciale, Regionale]
       comune: Adria
+    - nome: Claudia
+      cognome: Biasissi
+      ruolo: [Provinciale]
+      comune: Rovigo
     - nome: Federico
       cognome: Paralovo
       ruolo: [Provinciale]
