@@ -1,4 +1,3 @@
-
 ---  
 title: "Regionali, VcV: Italia Viva si guardi allo specchio se parla di zombie"
 date: 2020-07-05
