@@ -146,10 +146,10 @@
       cognome: Anoardo
       ruolo: [Provinciale]
       comune: Fumane
-    - nome: Ulyana
-      cognome: Avola
+    - nome: Donatella
+      cognome: Ramorino
       ruolo: [Provinciale]
-      comune: Negrar
+      comune: Legnago
     - nome: Lucio
       cognome: Bertoldi
       ruolo: [Provinciale]
@@ -162,8 +162,8 @@
       cognome: Bronuzzi
       ruolo: [Provinciale]
       comune: Legnago
-    - nome: Francesco
-      cognome: Campagnari
+    - nome: Vincenzo 
+      cognome: Genovese
       ruolo: [Provinciale]
       comune: Verona
     - nome: Alessandra
@@ -194,10 +194,10 @@
       cognome: Pinter
       ruolo: [Provinciale]
       comune: Verona
-    - nome: Alessandra
-      cognome: Taddei
+    - nome: Alessandro
+      cognome: Rigo
       ruolo: [Provinciale]
-      comune: Sona
+      comune: Verona
 - provincia: Rovigo
   membri:
     - nome: Claudio
