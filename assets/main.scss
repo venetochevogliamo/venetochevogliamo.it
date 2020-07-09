@@ -22,7 +22,7 @@ $indigo: #6610f2;
 $purple: #6f42c1;
 $pink: #e83e8c;
 $red: #d9534f;
-$orange: #fd7e14;
+$orange: #E8903D;
 $yellow: #f0ad4e;
 $green: #4bbf73;
 $teal: #20c997;
@@ -32,7 +32,7 @@ $primary: $blue;
 $secondary: $white;
 $success: $green;
 $info: $cyan;
-$warning: $yellow;
+$warning: $orange;
 $danger: $red;
 $light: $white;
 $dark: $gray-800;
@@ -181,9 +181,10 @@ $grid-breakpoints: (
 
 // Page Header (with logo)
 .header-logo {
+  margin-top: 10px;
   height: 300px;
   //margin-bottom: 20px;
-  background: url(./img/il-veneto-che-vogliamo.jpg);
+  background: url(./img/VcV_logo.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
