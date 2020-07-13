@@ -1,5 +1,5 @@
 ---  
-title: "VcV, dimissioni Lorenzoni: <Una scelta coraggiosa, che sposa il nostro modo civico e popolare>"
+title: "VcV, dimissioni Lorenzoni: «Una scelta coraggiosa, che sposa il nostro modo civico e popolare»"
 date: 2020-07-13
 
 --- 
