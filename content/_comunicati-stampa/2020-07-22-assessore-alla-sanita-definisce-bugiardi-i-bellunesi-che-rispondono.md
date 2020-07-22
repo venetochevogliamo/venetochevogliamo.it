@@ -1,6 +1,6 @@
 ---  
 title: L'Assessore alla Sanità definisce bugiardi i bellunesi che mostrano coi numeri la precarietà del diritto alla salute nelle terre alte, in attesa di risposte.
-date: 2020-07-16
+date: 2020-07-22
 
 ---
 
