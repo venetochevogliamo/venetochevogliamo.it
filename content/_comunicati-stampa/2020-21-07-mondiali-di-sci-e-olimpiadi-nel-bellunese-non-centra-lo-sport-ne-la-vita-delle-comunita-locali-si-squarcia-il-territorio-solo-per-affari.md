@@ -1,6 +1,6 @@
 ---  
 title: Mondiali di sci e Olimpiadi nel Bellunese: non c'entra lo sport, non c'entra la vita delle comunità locali, si squarcia il territorio solo per una questione di affari
-date: 2020-07-21
+date: 2020-21-07
 
 ---
 
