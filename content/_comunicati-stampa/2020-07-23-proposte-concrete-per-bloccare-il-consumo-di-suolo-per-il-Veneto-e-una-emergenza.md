@@ -1,5 +1,5 @@
 ---  
-title: Proposte concrete per bloccare il consumo di suolo: per il Veneto è una emergenza.
+title: "Proposte concrete per bloccare il consumo di suolo: per il Veneto è una emergenza"
 date: 2020-07-23
 
 ---
